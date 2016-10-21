@@ -1,7 +1,7 @@
 # workshop-template
 
 This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
-template for creating websites for workshops.
+template for creating websites for instructor training workshops.
 
 1.  Please *do not fork this repository directly on GitHub.*
     Instead, please use GitHub's importer following [the instructions below](#creating-a-repository)
@@ -37,14 +37,14 @@ for your learners to practice in.
 2.  Go to [GitHub's importer][importer].
 
 3.  Paste the url of this repo as the old repository to clone:
-    <https://github.com/swcarpentry/workshop-template>.
+    <https://github.com/swcarpentry/training-template>.
 
 4.  Select the owner for your new repository.
     (This will probably be you, but may instead be an organization you belong to.)
 
 5.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-site`,
-    e.g., `2016-12-01-miskatonic`,
+    This name should have the form `YYYY-MM-DD-site-ttt`,
+    e.g., `2016-12-01-miskatonic-ttt`,
     where `YYYY-MM-DD` is the start date of the workshop.
 
 6.  Make sure the repository is public.
@@ -69,10 +69,10 @@ please [get in touch](#getting-and-giving-help).
 ## Customizing Your Website
 
 1.  Go into your newly-created repository,
-    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.
+    which will be at `https://github.com/your_username/YYYY-MM-DD-site-ttt`.
     For example,
     if your username is `gvwilson`,
-    the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic`.
+    the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic-ttt`.
 
 2.  Edit the header of `index.html` to customize the list of instructors,
     workshop venue, etc. 
@@ -91,7 +91,7 @@ please [get in touch](#getting-and-giving-help).
     and push your changes back to the repository.
 
     ~~~
-    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-site
+    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-site-ttt
     ~~~
 
     You should specify `-b gh-pages` because the imported repository doesn't have a `master` branch.
