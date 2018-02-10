@@ -152,7 +152,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Contact</strong>:
   Please email
   {% if page.contact %}
-    {% for contact in page.contact: %}
+    {% for contact in page.contact %}
       {% if forloop.last and page.contact.size > 1 %}
         or
       {% else %}
