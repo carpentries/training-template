@@ -28,12 +28,31 @@
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/lesson.css" />
-    {% if site.carpentry == "swc" %}
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
-    {% endif %}
-    {% if site.carpentry == "dc" %}
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-dc.ico" />
-    {% endif %}
+
+    <!-- favicons for everyone  -->
+    <link rel="shortcut icon" href="{{ page.root }}/assets/img/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="{{ page.root }}/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="{{ page.root }}/assets/img/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="{{ page.root }}/assets/img/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ page.root }}/assets/img/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ page.root }}/assets/img/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ page.root }}/assets/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ page.root }}/assets/img/favicon-16.png">
+    <link rel="apple-touch-icon" href="{{ page.root }}/assets/img/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ page.root }}/assets/img/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ page.root }}/assets/img/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ page.root }}/assets/img/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ page.root }}/assets/img/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ page.root }}/assets/img/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ page.root }}/assets/img/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ page.root }}/assets/img/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ page.root }}/assets/img/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="{{ page.root }}/assets/img/favicon-144.png">
+    <meta name="msapplication-config" content="{{ page.root }}/browserconfig.xml">
+
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
