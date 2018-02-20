@@ -46,6 +46,7 @@ for your learners to practice in.
     This name should have the form `YYYY-MM-DD-site-ttt`,
     e.g., `2016-12-01-miskatonic-ttt`,
     where `YYYY-MM-DD` is the start date of the workshop.
+    for online workshops, choose `online` as `site`
 
 6.  Make sure the repository is public.
 
