@@ -37,7 +37,7 @@ for your learners to practice in.
 2.  Go to [GitHub's importer][importer].
 
 3.  Paste the url of this repo as the old repository to clone:
-    <https://github.com/swcarpentry/training-template>.
+    <https://github.com/carpentries/training-template>.
 
 4.  Select the owner for your new repository.
     (This will probably be you, but may instead be an organization you belong to.)
@@ -228,7 +228,7 @@ or [mail us][contact].
 [faq]: https://swcarpentry.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
 [importer]: http://import.github.com/new
-[issues]: https://github.com/swcarpentry/workshop-template/issues
+[issues]: https://github.com/carpentries/training-template/issues
 [jekyll]: https://jekyllrb.com/
 [jekyll-windows]: http://jekyll-windows.juthilo.com/
 [lesson-example]: https://swcarpentry.github.io/lesson-example/
