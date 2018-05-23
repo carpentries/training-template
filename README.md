@@ -43,8 +43,8 @@ for your learners to practice in.
     (This will probably be you, but may instead be an organization you belong to.)
 
 5.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-site-ttt`,
-    e.g., `2016-12-01-miskatonic-ttt`,
+    This name should have the form `YYYY-MM-DD-ttt-site`,
+    e.g., `2016-12-01-ttt-miskatonic`,
     where `YYYY-MM-DD` is the start date of the workshop.
     for online workshops, choose `online` as `site`
 
