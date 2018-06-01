@@ -52,5 +52,5 @@ if __name__ == '__main__':
     else:
         print('Failed')
         print('Install a current version of Python 3!')
-        print('http://continuum.io/downloads')
+        print('https://www.anaconda.com/download/')
         _sys.exit(1)
