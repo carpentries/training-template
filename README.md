@@ -75,14 +75,14 @@ please [get in touch](#getting-and-giving-help).
     if your username is `gvwilson`,
     the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic-ttt`.
 
-2.  Edit the header of `index.html` to customize the list of instructors,
+2.  Edit the header of `index.html` and `_config.yml` to customize the list of instructors,
     workshop venue, etc. 
     You can do this in the browser by clicking on it in the file view on GitHub
     and then selecting the pencil icon in the menu bar:
 
     ![](fig/edit-index-file-menu-bar.png?raw=true)
     
-    Editing hints are embedded in `index.html`,
+    Editing hints are embedded in `index.html` and `_config.yml`,
     and full instructions are in [the customization instructions][customization].
 
 3.  Alternatively,
