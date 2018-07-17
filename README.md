@@ -1,4 +1,4 @@
-# workshop-template
+# training-template
 
 This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
 template for creating websites for instructor training workshops.
@@ -222,16 +222,16 @@ please [file an issue][issues]
 or [mail us][contact].
 
 [contact]: mailto:admin@software-carpentry.org
-[customization]: https://swcarpentry.github.io/workshop-template/customization/
+[customization]: https://carpentries.github.io/workshop-template/customization/
 [dc-site]: http://datacarpentry.org
-[design]: https://swcarpentry.github.io/workshop-template/design/
-[faq]: https://swcarpentry.github.io/workshop-template/faq/
+[design]: https://carpentries.github.io/workshop-template/design/
+[faq]: https://carpentries.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
 [importer]: http://import.github.com/new
 [issues]: https://github.com/carpentries/training-template/issues
 [jekyll]: https://jekyllrb.com/
 [jekyll-windows]: http://jekyll-windows.juthilo.com/
-[lesson-example]: https://swcarpentry.github.io/lesson-example/
+[lesson-example]: https://carpentries.github.io/lesson-example/
 [pyyaml]: https://pypi.python.org/pypi/PyYAML
 [ruby-install-guide]: https://www.ruby-lang.org/en/downloads/
 [ruby-installer]: http://rubyinstaller.org/
