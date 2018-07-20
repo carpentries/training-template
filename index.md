@@ -207,12 +207,29 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
+<h2 id="surveys">Surveys</h2>
+
+<h3 id="pre_workshop_survey">Pre-training survey</h3>
+
+<p>
+  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+</p>
+
+<h3 id ="post_workshop_survey">Post-training survey</h3>
+
+<p>
+  After attending the workshop, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}"> our post-training survey</a>
+</p>
+
+
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
 <p>
   Please see <a href="{{ site.training_site }}">this site</a> for course material and tentative schedule.
 </p>
 
+
+<hr/>
 
 <!--
 
@@ -277,9 +294,5 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-
-<p>
-  After the workshop, please fill out <a href="https://www.surveymonkey.com/r/post-instructor-training?workshop_id=[workshop_id_value]">our post-training survey</a>.
 </p>
 {% endif %}
