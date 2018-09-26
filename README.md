@@ -218,7 +218,7 @@ please [file an issue][issues]
 or [mail us][contact].
 
 [carpentry-site]: https://carpentries.org/
-[contact]: mailto:
+[contact]: mailto:checkout@carpentries.org
 [customization]: https://carpentries.github.io/workshop-template/customization/
 [design]: https://carpentries.github.io/workshop-template/design/
 [faq]: https://carpentries.github.io/workshop-template/faq/
