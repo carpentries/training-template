@@ -1,7 +1,7 @@
 # training-template
 
-This repository is [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
-template for creating websites for instructor training workshops.
+This repository is [The Carpentries'][carpentry-site]
+template for creating websites for Instructor Training workshops.
 
 1.  Please *do not fork this repository directly on GitHub.*
     Instead, please use GitHub's importer following [the instructions below](#creating-a-repository)
@@ -12,7 +12,7 @@ template for creating websites for instructor training workshops.
     [automatically published as a website by GitHub][github-project-pages].
 
 3.  Once you are done,
-    please **send your repository's URL to the [Software Carpentry administrator][contact]**.
+    please **send your repository's URL to [The Carpentries' administrator][contact]**.
     We build the list of workshops on our websites from the data included in your `index.html` page.
     We can only do that if you [customize][customization] that page correctly
     *and* send us a link to your workshop website.
@@ -23,10 +23,6 @@ please [get in touch](#getting-and-giving-help).
 The pages on [customizing your website][customization],
 the [FAQ][faq],
 and the [design notes][design] have more detail on what we do and why.
-And please note:
-if you are teaching Git,
-please [create a separate repository](#setting-up-a-separate-repository-for-learners)
-for your learners to practice in.
 
 ## Creating a Repository
 
@@ -57,7 +53,7 @@ for your learners to practice in.
     You can now click "Begin Import".
     When the process is done,
     you will receive a message like
-    "Importing complete! Your new repository gvwilson/2016-12-01-miskatonic is ready."
+    "Importing complete! Your new repository gvwilson/2016-12-01-ttt-miskatonic is ready."
     and you can go to the new repository by clicking on the name.
 
 **Note:**
@@ -70,10 +66,10 @@ please [get in touch](#getting-and-giving-help).
 ## Customizing Your Website
 
 1.  Go into your newly-created repository,
-    which will be at `https://github.com/your_username/YYYY-MM-DD-site-ttt`.
+    which will be at `https://github.com/your_username/YYYY-MM-DD-ttt-site`.
     For example,
     if your username is `gvwilson`,
-    the repository's URL will be `https://github.com/gvwilson/2016-12-01-miskatonic-ttt`.
+    the repository's URL will be `https://github.com/gvwilson/2016-12-01-ttt-miskatonic`.
 
 2.  Edit the header of `index.html` and `_config.yml` to customize the list of instructors,
     workshop venue, etc. 
@@ -92,7 +88,7 @@ please [get in touch](#getting-and-giving-help).
     and push your changes back to the repository.
 
     ~~~
-    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-site-ttt
+    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-ttt-site
     ~~~
 
     You should specify `-b gh-pages` because the imported repository doesn't have a `master` branch.
@@ -110,7 +106,7 @@ please [get in touch](#getting-and-giving-help).
 
 5.  When you are done editing,
     go to the GitHub Pages URL for your workshop and preview your changes.
-    In the example above, this is `https://gvwilson.github.io/2016-12-01-miskatonic`.
+    In the example above, this is `https://gvwilson.github.io/2016-12-01-ttt-miskatonic`.
 
 **Note:**
 this template includes some files and directories that most workshops do not need,
@@ -138,7 +134,7 @@ you can do so as described below.
 
     and go to <http://0.0.0.0:4000> to preview your site.
     You can also run this command by typing `make serve`
-    (assuming you have Make installed).
+    (if you have Make installed).
 
 3.  Run the command `python bin/workshop_check.py index.html`
     to check for a few common errors in your workshop's home page.
@@ -156,8 +152,8 @@ and styling them according to the instructions give in
 If you do this,
 you *must* also edit `_config.yml` to set these three values:
 
-1.  `carpentry` is either "dc" (for Data Carpentry) or "swc" (for Software Carpentry).
-    This determines which logos are loaded.
+1.  `carpentry` is "cp" (for The Carpentries).
+    This determines which logo is loaded.
 
 2.  `title` is the title of your workshop (typically the venue and date).
 
@@ -215,15 +211,15 @@ and add whatever content you need to it.
 
 ## Getting and Giving Help
 
-We are committed to offering a pleasant setup experience for our learners and organizers.
+We are committed to offering a pleasant setup experience for our learners, Trainers, Instructors and workshop hosts.
 If you find bugs in our instructions,
 or would like to suggest improvements,
 please [file an issue][issues]
 or [mail us][contact].
 
-[contact]: mailto:admin@software-carpentry.org
+[carpentry-site]: https://carpentries.org/
+[contact]: mailto:
 [customization]: https://carpentries.github.io/workshop-template/customization/
-[dc-site]: http://datacarpentry.org
 [design]: https://carpentries.github.io/workshop-template/design/
 [faq]: https://carpentries.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
@@ -236,4 +232,3 @@ or [mail us][contact].
 [ruby-install-guide]: https://www.ruby-lang.org/en/downloads/
 [ruby-installer]: http://rubyinstaller.org/
 [rubygems]: https://rubygems.org/pages/download/
-[swc-site]: http://software-carpentry.org
