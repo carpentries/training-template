@@ -59,8 +59,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
   The course is aimed at everyone who is
   interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>
-  and <a href="{{ site.dc_site }}">Data Carpentry</a>
+  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, and <a href="{{ site.lc_site }}">Library Carpentry</a>
   instructors, run workshops and contribute to the Carpentry training
   materials. You don't currently have to be an instructor or a
   teacher to attend this workshop, but you do need to be willing and
@@ -68,9 +68,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <p>
-  <a href="{{ site.swc_site }}">Software Carpentry</a>
-  and <a href="{{ site.dc_site }}">Data Carpentry</a>'s mission is to
-  help scientists and engineers get more research done in less time
+  <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
+  <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
+  help scientists, researchers, and librarians get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
   computing.  This hands-on two-day workshop covers the basics of
   educational psychology and instructional design, and looks at how to
