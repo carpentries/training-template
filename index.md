@@ -180,31 +180,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
 </ol>
 <p>
-  Please also read through <em>one</em> of the episodes below
+  Please also read through <em>one</em> of the Carpentries lessons below   
   carefully, so that you can do some exercises based on it on the
   first day of the class.
 </p>
-<div class="row">
-  <div class="col-md-6">
-    <p><strong>Data Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine">Faceting and Clustering in OpenRefine</a></li>
-      <li><a href="{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries">Basic Queries in SQL</a></li>
-      <li><a href="{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></li>
-      <li><a href="{{ site.dc_site }}/python-ecology-lesson/01-starting-with-data/">Starting with Data in Python</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <p><strong>Software Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.swc_pages }}/shell-novice/03-create/">Working with Files and Directories in the Unix Shell</a></li>
-      <li><a href="{{ site.swc_pages }}/git-novice/04-changes/">Tracking Changes in Git</a></li>
-      <li><a href="{{ site.swc_pages }}/sql-novice-survey/01-select/">Selecting Data in SQL</a></li>
-      <li><a href="{{ site.swc_pages }}/python-novice-inflammation/02-loop/">Repeating Actions with Loops in Python</a></li>
-      <li><a href="{{ site.swc_pages }}/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames in R</a></li>
-    </ul>
-  </div>
-</div>
+
+  <ul>
+  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
+  <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
+  <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
+  </ul>
+  
 
 <hr/>
 
