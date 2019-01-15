@@ -182,7 +182,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
   Please also read through <em>one</em> episode of of the Carpentries lessons below   
   carefully, so that you can do some exercises based on it on the
-  first day of the class.  An episode is one row from any lesson table.
+  first day of the class.  An episode is one page of a lesson.
 </p>
 
   <ul>
