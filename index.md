@@ -148,18 +148,18 @@ attempt to provide them.
 <h3>Requirements</h3>
 
 Participants should bring a laptop that is Internet connected and has a
-  functioning browser. If you have it, a device for recording audio and video
-  (mobile phones and laptops are OK) is useful as throughout the two days, we
-  are going to record one another teaching in pairs or threes. It does not have
-  to be high-quality, but it should be good enough that you can understand what
-  someone is saying.
+functioning browser. If you have it, a device for recording audio and video
+(mobile phones and laptops are OK) is useful as throughout the two days, we
+are going to record one another teaching in pairs or threes. It does not have
+to be high-quality, but it should be good enough that you can understand what
+someone is saying.
 
-  Please note that after this course is over, you will be asked to do
-  three short follow-up exercises online in order to finish qualifying
-  as an instructor: the details are available at
-  <a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
-  If you have any questions about the workshop, the reading material,
-  or anything else, please get in touch.
+Please note that after this course is over, you will be asked to do
+three short follow-up exercises online in order to finish qualifying
+as an instructor: the details are available at
+<a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
+If you have any questions about the workshop, the reading material,
+or anything else, please get in touch.
 
 
 <h3>Code of Conduct</h3>
@@ -170,23 +170,23 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 
 
 <h3 id="contact">Contact</h3>
-
-  Please email
-  {% if page.contact %}
-    {% for contact in page.contact %}
-      {% if forloop.last and page.contact.size > 1 %}
-        or
-      {% else %}
-        {% unless forloop.first %}
-        ,
-        {% endunless %}
-      {% endif %}
-      <a href='mailto:{{contact}}'>{{contact}}</a>
-    {% endfor %}
-  {% else %}
-    to-be-announced
-  {% endif %}
-  for more information.
+<p>
+Please email
+{% if page.contact %}
+  {% for contact in page.contact %}
+    {% if forloop.last and page.contact.size > 1 %}
+      or
+    {% else %}
+      {% unless forloop.first %}
+      ,
+      {% endunless %}
+    {% endif %}
+    <a href='mailto:{{contact}}'>{{contact}}</a>
+  {% endfor %}
+{% else %}
+  to-be-announced
+{% endif %}
+for more information.
 </p>
 
 <hr/>
@@ -302,6 +302,8 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 
+{% endif %}
+
 <h2 id="pre_workshop_survey">Surveys</h2>
 
 <p>
@@ -312,4 +314,3 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 <p>
   After the workshop, please fill out <a href="https://carpentries.github.io/instructor-training/06-feedback/#surveys">our post-assessment survey</a>.
 </p>
-{% endif %}
