@@ -1,12 +1,8 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -16,6 +12,14 @@ helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Ma
 contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+locations:
+  - venue: "Online"
+    address: "https://carpentries.zoom.us/j/FIXME"
+
+  - venue: "Euphoria University"
+    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
+    latlng: "41.7901128,-87.6007318"
+
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -59,8 +63,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>
   The course is aimed at everyone who is
   interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, and <a href="{{ site.lc_site }}">Library Carpentry</a>
+  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>
+  and <a href="{{ site.dc_site }}">Data Carpentry</a>
   instructors, run workshops and contribute to the Carpentry training
   materials. You don't currently have to be an instructor or a
   teacher to attend this workshop, but you do need to be willing and
@@ -95,62 +99,78 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   if the latitude and longitude of the workshop have been set.  You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
--->
-{% if page.latlng %}
-<p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
-</p>
+  -->
+<h3 id="where">Where</h3>
+
+{% assign inperson = "false" %}
+{% for loc in page.locations %}
+
+{% capture online %}{{ loc.venue | downcase }}{% endcapture %}
+
+<h4>{{ loc.venue }}</h4>
+
+{% if online == "online" %}
+
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
+
+{% else %}
+{% assign inperson = "true" %}
+{{ loc.address }} {% if loc.latlng %} Get directions with
+    <a href="//www.openstreetmap.org/?mlat={{loc.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+    or
+    <a href="//maps.google.com/maps?q={{loc.latlng}}">Google Maps</a>. {% endif %}
+
+{% endif %}
+{% endfor %}
+
+{% if inperson == "true" %}
+
+<h4 id="accessibility">Accessibility</h4>
+
+We are committed to making this workshop
+accessible to everybody.
+The workshop organisers have checked that:
+
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+
+Materials will be provided in advance of the workshop and
+large-print handouts are available if needed by notifying the
+organizers in advance.  If we can help making learning easier for
+you (e.g. sign-language interpreters, lactation facilities) please
+please get in touch (using contact details below) and we will
+attempt to provide them.
+
 {% endif %}
 
-<p>
-  <strong>Requirements:</strong> Participants should bring a laptop
-  that is Internet connected and has a functioning browser.  If you
-  have it, a device for recording audio and video (mobile phones and
-  laptops are OK) is useful as throughout the two days, we are going
-  to record one another teaching in pairs or threes.  It does not have
-  to be high-quality, but it should be good enough that you can
-  understand what someone is saying.
-</p>
-<p>
+<h3>Requirements</h3>
+
+Participants should bring a laptop that is Internet connected and has a
+  functioning browser. If you have it, a device for recording audio and video
+  (mobile phones and laptops are OK) is useful as throughout the two days, we
+  are going to record one another teaching in pairs or threes. It does not have
+  to be high-quality, but it should be good enough that you can understand what
+  someone is saying.
+
   Please note that after this course is over, you will be asked to do
   three short follow-up exercises online in order to finish qualifying
   as an instructor: the details are available at
   <a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
   If you have any questions about the workshop, the reading material,
   or anything else, please get in touch.
-</p>
-<p align="center">
-  <em>
-    All participants are required to abide by The Carpentries'
-    <a href="{{ site.swc_site }}/conduct/">Code of Conduct</a>.
-  </em>
-</p>
 
-<p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organisers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  please get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
 
-<p id="contact">
-  <strong>Contact</strong>:
+<h3>Code of Conduct</h3>
+
+All participants are required to abide by Software Carpentry's <a href="{{
+site.swc_site }}/conduct/">Code of Conduct</a>.
+
+
+
+<h3 id="contact">Contact</h3>
+
   Please email
   {% if page.contact %}
     {% for contact in page.contact %}
@@ -180,34 +200,33 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
 </ol>
 <p>
-  Please also read through <em>one</em> episode of of the Carpentries lessons below   
+  Please also read through <em>one</em> of the episodes below
   carefully, so that you can do some exercises based on it on the
-  first day of the class.  An episode is one page of a lesson.
+  first day of the class.
 </p>
-
-  <ul>
-  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
-  <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
-  <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
-  </ul>
-  
+<div class="row">
+  <div class="col-md-6">
+    <p><strong>Data Carpentry</strong></p>
+    <ul>
+      <li><a href="{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine">Faceting and Clustering in OpenRefine</a></li>
+      <li><a href="{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries">Basic Queries in SQL</a></li>
+      <li><a href="{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></li>
+      <li><a href="{{ site.dc_site }}/python-ecology-lesson/01-starting-with-data">Starting with Data in Python</a></li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <p><strong>Software Carpentry</strong></p>
+    <ul>
+      <li><a href="{{ site.swc_pages }}/shell-novice/03-create/">Working with Files and Directories in the Unix Shell</a></li>
+      <li><a href="{{ site.swc_pages }}/git-novice/04-changes/">Tracking Changes in Git</a></li>
+      <li><a href="{{ site.swc_pages }}/sql-novice-survey/01-select/">Selecting Data in SQL</a></li>
+      <li><a href="{{ site.swc_pages }}/python-novice-inflammation/02-loop/">Repeating Actions with Loops in Python</a></li>
+      <li><a href="{{ site.swc_pages }}/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames in R</a></li>
+    </ul>
+  </div>
+</div>
 
 <hr/>
-
-<h2 id="surveys">Surveys</h2>
-
-<h3 id="pre_workshop_survey">Pre-training survey</h3>
-
-<p>
-  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
-</p>
-
-<h3 id ="post_workshop_survey">Post-training survey</h3>
-
-<p>
-  After attending the workshop, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}"> our post-training survey</a>
-</p>
-
 
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
@@ -281,5 +300,16 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+
+<h2 id="pre_workshop_survey">Surveys</h2>
+
+<p>
+  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+</p>
+
+
+<p>
+  After the workshop, please fill out <a href="https://carpentries.github.io/instructor-training/06-feedback/#surveys">our post-assessment survey</a>.
 </p>
 {% endif %}
