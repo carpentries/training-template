@@ -192,23 +192,6 @@ You can check the formatting of your header by running `bin/workshop_check.py`
 You must have Python 3 installed in order to do this,
 and you will also need the [PyYAML][pyyaml] module.
 
-## Setting Up a Separate Repository for Learners
-
-If you are teaching Git,
-you should create a separate repository for learners to use in that lesson.
-You should not have them use the workshop website repository because:
-
-*   your workshop website repository contains many files
-    that most learners don't need to see during the lesson,
-    and
-
-*   you probably don't want to accidentally merge
-    a damaging pull request from a novice Git user
-    into your workshop's website while you are using it to teach.
-
-You can call this repository whatever you like,
-and add whatever content you need to it.
-
 ## Getting and Giving Help
 
 We are committed to offering a pleasant setup experience for our learners, Trainers, Instructors and workshop hosts.
