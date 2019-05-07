@@ -63,9 +63,9 @@ locations:
 <p>
   The course is aimed at everyone who is
   interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>
-  and <a href="{{ site.dc_site }}">Data Carpentry</a>
-  instructors, run workshops and contribute to the Carpentry training
+  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
+  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.dc_site }}">Data Carpentry</a>
+  Instructors, run workshops and contribute to The Carpentries training
   materials. You don't currently have to be an instructor or a
   teacher to attend this workshop, but you do need to be willing and
   committed to becoming one and to improving your teaching techniques.
@@ -164,7 +164,7 @@ or anything else, please get in touch.
 
 <h3>Code of Conduct</h3>
 
-All participants are required to abide by Software Carpentry's <a href="{{
+All participants are required to abide by The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
 
 
@@ -200,31 +200,17 @@ for more information.
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
 </ol>
 <p>
-  Please also read through <em>one</em> of the episodes below
+  Please also read through <em>one</em> episode of one of The Carpentries lessons below   
   carefully, so that you can do some exercises based on it on the
-  first day of the class.
+  first day of the class.  An episode is one page of a lesson.
 </p>
-<div class="row">
-  <div class="col-md-6">
-    <p><strong>Data Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine">Faceting and Clustering in OpenRefine</a></li>
-      <li><a href="{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries">Basic Queries in SQL</a></li>
-      <li><a href="{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></li>
-      <li><a href="{{ site.dc_site }}/python-ecology-lesson/01-starting-with-data">Starting with Data in Python</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <p><strong>Software Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.swc_pages }}/shell-novice/03-create/">Working with Files and Directories in the Unix Shell</a></li>
-      <li><a href="{{ site.swc_pages }}/git-novice/04-changes/">Tracking Changes in Git</a></li>
-      <li><a href="{{ site.swc_pages }}/sql-novice-survey/01-select/">Selecting Data in SQL</a></li>
-      <li><a href="{{ site.swc_pages }}/python-novice-inflammation/02-loop/">Repeating Actions with Loops in Python</a></li>
-      <li><a href="{{ site.swc_pages }}/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames in R</a></li>
-    </ul>
-  </div>
-</div>
+
+  <ul>
+  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
+  <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
+  <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
+  </ul>
+  
 
 <hr/>
 
