@@ -15,7 +15,7 @@ You should not need to modify any of the other values in `_config.yml`.
 
 ## Home Page: Data
 
-Your workshop's home page lives in `index.html`,
+Your workshop's home page lives in `index.md`,
 which must define the following values in its header:
 
 *   `layout` must be `workshop`.
@@ -115,7 +115,7 @@ so that learners don't spend time installing software they don't need.
 ## Setup: Installation tests
 
 If you intend to use the installation-test scripts,
-uncomment the paragraph linking to `setup/index.html` in `index.html`
+uncomment the paragraph linking to `setup/index.html` in `index.md`
 and edit `setup/swc-installation-test-2.py` as described below.
 
 `swc-installation-test-1.py` is pretty simple, and just checks that

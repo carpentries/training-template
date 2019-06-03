@@ -74,7 +74,7 @@ than Git itself.
     their pages has to be stored in `_includes`.
 
 9.  A repository can have another special directory called `_layouts`.
-    If a page like `index.html` has a variable called `layout`, and
+    If a page like `index.md` has a variable called `layout`, and
     that variable's value is `standard.html`, Jekyll loads the file
     `_layouts/standard.html` and copies the content of `index.html`
     into it, then expands the result.  This is used to give the pages
@@ -82,8 +82,8 @@ than Git itself.
     We have created two layouts for workshop pages:
 
     * `workshop.html` is used for workshops' home pages, and is the
-      layout for the `index.html` page in your repo's root directory.
-      That `index.html` page's header must define several variables as
+      layout for the `index.md` page in your repo's root directory.
+      That `index.md` page's header must define several variables as
       specified in the the customization instructions in order for
       your workshop to be included in our main website.
 

@@ -12,7 +12,7 @@ permalink: /faq/
     and ask for help there.
 
 *What if I can't wait?*
-:   Run `make workshop-check` to run the workshop homepage checking program on `index.html`.
+:   Run `make workshop-check` to run the workshop homepage checking program on `index.md`.
 
 *Where can I report problems or suggest improvements?*
 :   Please file an issue against [{{site.workshop_repo}}](this repository)
@@ -42,7 +42,7 @@ permalink: /faq/
 :   Use subdirectories like `2015-07-01-esu/beginners`,
     so that repository names always follow our four-part convention.
 
-*What if I want to add more values to `index.html`, like `address1` and `address2` for different rooms on different days?*
+*What if I want to add more values to `index.md`, like `address1` and `address2` for different rooms on different days?*
 :   Go ahead,
     but you *must* have the variables described in the customization instructions.
 
@@ -59,7 +59,7 @@ permalink: /faq/
 ## Debugging
 
 *Help, my website is not updating!*
-:   Ensure that strings in the header of `index.html` are enclosed in quotations `"`.
+:   Ensure that strings in the header of `index.md` are enclosed in quotations `"`.
     Special characters such as `"&"` may render correctly on your local machine
     but cause rendering to fail silently on GitHub.
 
@@ -70,7 +70,7 @@ permalink: /faq/
     eventbrite: 1234567890AB
     ~~~
 
-    in the YAML header of `index.html`.
+    in the YAML header of `index.md`.
     If the YAML header is set properly you may be accessing
     `file:///home/to/workshop/directory/_site/index.html` directly.
     Instead,
