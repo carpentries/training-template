@@ -13,7 +13,7 @@ template for creating websites for Instructor Training workshops.
 
 3.  Once you are done,
     please **send your repository's URL to [The Carpentries' administrator][contact]**.
-    We build the list of workshops on our websites from the data included in your `index.html` page.
+    We build the list of workshops on our websites from the data included in your `index.md` file.
     We can only do that if you [customize][customization] that page correctly
     *and* send us a link to your workshop website.
 
@@ -71,20 +71,20 @@ please [get in touch](#getting-and-giving-help).
     if your username is `gvwilson`,
     the repository's URL will be `https://github.com/gvwilson/2016-12-01-ttt-miskatonic`.
 
-2.  Edit the header of `index.html` and `_config.yml` to customize the list of instructors,
+2.  Edit the header of `index.md` and `_config.yml` to customize the list of instructors,
     workshop venue, etc. 
     You can do this in the browser by clicking on it in the file view on GitHub
     and then selecting the pencil icon in the menu bar:
 
     ![](fig/edit-index-file-menu-bar.png?raw=true)
     
-    Editing hints are embedded in `index.html` and `_config.yml`,
+    Editing hints are embedded in `index.md` and `_config.yml`,
     and full instructions are in [the customization instructions][customization].
 
 3.  Alternatively,
     if you are already familiar with Git,
     you can clone the repository to your desktop,
-    edit `index.html` there,
+    edit `index.md` there,
     and push your changes back to the repository.
 
     ~~~
@@ -136,7 +136,7 @@ you can do so as described below.
     You can also run this command by typing `make serve`
     (if you have Make installed).
 
-3.  Run the command `python bin/workshop_check.py index.html`
+3.  Run the command `python bin/workshop_check.py index.md`
     to check for a few common errors in your workshop's home page.
     (You must have Python 3 installed to do this.)
     If you have Make installed,
@@ -160,7 +160,7 @@ you *must* also edit `_config.yml` to set these three values:
 3.  `email` is the contact email address for your workshop,
     e.g., `gvwilson@miskatonic.edu`.
 
-Note: `carpentry and `email` duplicate information that's in `index.html`,
+Note: `carpentry and `email` duplicate information that's in `index.md`,
 but there is no way to avoid this
 without requiring people to edit both files in the usual case
 where no extra pages are created.
