@@ -138,5 +138,5 @@ permalink: /faq/
     For more information,
     see <http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/>.
 
-[amy]: https://github.com/swcarpentry/amy
+[amy]: https://github.com/carpentries/amy
 [github-pages]: https://help.github.com/articles/creating-project-pages-manually/
