@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-'''Check that a workshop's index.html metadata is valid.  See the
+'''Check that a workshop's index.md metadata is valid.  See the
 docstrings on the checking functions for a summary of the checks.
 '''
 
@@ -404,7 +404,7 @@ def main():
         sys.exit(1)
 
     root_dir = sys.argv[1]
-    index_file = os.path.join(root_dir, 'index.html')
+    index_file = os.path.join(root_dir, 'index.md')
     config_file = os.path.join(root_dir, '_config.yml')
 
     reporter = Reporter()
