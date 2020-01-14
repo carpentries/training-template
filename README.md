@@ -206,7 +206,7 @@ or [mail us][contact].
 [design]: https://carpentries.github.io/workshop-template/design/
 [faq]: https://carpentries.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
-[importer]: http://import.github.com/new
+[importer]: https://github.com/new/import
 [issues]: https://github.com/carpentries/training-template/issues
 [jekyll]: https://jekyllrb.com/
 [jekyll-windows]: http://jekyll-windows.juthilo.com/
