@@ -109,7 +109,7 @@ and the [design notes][design] have more detail on what we do and why.
 please do all of your work in your repository's `gh-pages` branch,
 since [GitHub automatically publishes that as a website][github-project-pages].
 
-## Checking Your Changes Locally
+## (Optional) Checking Your Changes Locally
 
 If you want to preview your changes on your own machine before publishing them on GitHub,
 you can do so as described below.
