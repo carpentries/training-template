@@ -42,7 +42,7 @@ and the [design notes][design] have more detail on what we do and why.
     This name should have the form `YYYY-MM-DD-ttt-site`,
     e.g., `2016-12-01-ttt-oomza`,
     where `YYYY-MM-DD` is the start date of the workshop.
-    for online workshops, choose `online` as `site`.
+   For online workshops, choose `online` as `site`.
     In any case, the Instructor Training Team will tell you
     the name of the repository you should use.
 
