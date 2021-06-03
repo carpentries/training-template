@@ -14,7 +14,7 @@ etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:
   - venue: "Online"
-    address: "https://carpentries.zoom.us/j/FIXME"
+    address: ""
 
   - venue: "Euphoria University"
     address: "Room A, 123 Forth Street, Blimingen, Euphoria"
@@ -63,8 +63,8 @@ locations:
 <p>
   The course is aimed at everyone who is
   interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.dc_site }}">Data Carpentry</a>
+  is aimed at those who want to become <a href="{{ site.dc_site }}">Data Carpentry</a>,
+  <a href="{{ site.lc_site }}">Library Carpentry</a>, and <a href="{{ site.swc_site }}">Software Carpentry</a>
   Instructors, run workshops and contribute to The Carpentries training
   materials. You don't currently have to be an instructor or a
   teacher to attend this workshop, but you do need to be willing and
@@ -72,9 +72,8 @@ locations:
 </p>
 
 <p>
-  <a href="{{ site.swc_site }}">Software Carpentry</a>,
-  <a href="{{ site.dc_site }}">Data Carpentry</a>, and 
-  <a href="{{ site.lc_site }}">Library Carpentry</a>'s mission is to
+  <a href="{{ site.dc_site }}">Data Carpentry</a>, <a href="{{ site.lc_site }}">Library Carpentry</a>, and 
+  <a href="{{ site.swc_site }}">Software Carpentry</a>'s mission is to
   help scientists, researchers, and librarians get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
   computing.  This hands-on two-day workshop covers the basics of
@@ -111,7 +110,7 @@ locations:
 
 {% if online == "online" %}
 
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event will be delivered to registrants via email approximately one week before the start of your scheduled training.
 
 {% else %}
 {% assign inperson = "true" %}
@@ -198,7 +197,7 @@ for more information.
 </p>
 <ol>
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-  <li><a href="https://carpentries.org/files/reports/TheCarpentries2019AnnualReport.pdf">The Carpentries 2019 Annual Report</a></li>
+  <li><a href="https://carpentries.org/files/reports/Carpentries2020AnnualReport.pdf">The Carpentries 2020 Annual Report</a></li>
 </ol>
 <p>
   Please also read through <em>one</em> episode of one of The Carpentries lessons below   
@@ -207,9 +206,9 @@ for more information.
 </p>
 
   <ul>
-  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
   <li><a href="{{ site.dc_site }}/lessons">Data Carpentry Lessons</a></li>
   <li><a href="{{ site.lc_site }}/lessons">Library Carpentry Lessons</a></li>
+  <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
   </ul>
   
 
