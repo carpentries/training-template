@@ -168,7 +168,7 @@ Before your training, please visit our Preparing for Instructor Training page fo
     </ul> 
 </ol> 
 
-<h3> Checkout: The Instructor Certification Process<\h3>
+<h3> Checkout: The Instructor Certification Process</h3>
 After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our 
   <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training. 
   
