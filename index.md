@@ -71,6 +71,7 @@ locations:            # for online events, delete the second section below. for 
 
 <p>
   Carpentries Instructor Training has the following goals:
+  
 * Introduce you to evidence-based teaching practices.
 * Teach you how to create a positive environment for learners at your workshops.
 * Provide opportunities for you to practice and build your teaching skills.
@@ -81,6 +82,7 @@ Because we have only limited time, some things are beyond the scope of this trai
   <a href="{{ site.lc_site }}">Library Carpentry</a>, or 
   <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
 * How to create your own lessons from scratch (although you will have a good start on the principles behind that sort of work if you are inspired to learn more).
+
 </p>
 <p>
 Instructor Training events are hands-on throughout: short lessons alternate 
