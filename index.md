@@ -77,7 +77,9 @@ locations:            # for online events, delete the second section below. for 
 * Provide opportunities for you to practice and build your teaching skills.
 * Help you become integrated into the Carpentries community.
 * Prepare you to use these teaching skills in teaching Carpentries workshops.
+  
 Because we have only limited time, some things are beyond the scope of this training. We will not be learning:
+  
 * How to program in R or Python, use Git or SQL, or any of the other topics taught in  <a href="{{ site.dc_site }}">Data Carpentry</a>, 
   <a href="{{ site.lc_site }}">Library Carpentry</a>, or 
   <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
