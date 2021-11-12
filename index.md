@@ -69,8 +69,7 @@ locations:            # for online events, delete the second section below. for 
   to certify but simply wish to become a better teacher.
 </p>
 
-<p>
-  Carpentries Instructor Training has the following goals:
+<p>Carpentries Instructor Training has the following goals:</p>
   
 * Introduce you to evidence-based teaching practices.
 * Teach you how to create a positive environment for learners at your workshops.
@@ -78,14 +77,15 @@ locations:            # for online events, delete the second section below. for 
 * Help you become integrated into the Carpentries community.
 * Prepare you to use these teaching skills in teaching Carpentries workshops.
   
-Because we have only limited time, some things are beyond the scope of this training. We will not be learning:
+<p> Because we have only limited time, some things are beyond the scope of this training. We will
+not be learning:</p>
   
 * How to program in R or Python, use Git or SQL, or any of the other topics taught in  <a href="{{ site.dc_site }}">Data Carpentry</a>, 
   <a href="{{ site.lc_site }}">Library Carpentry</a>, or 
   <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
 * How to create your own lessons from scratch (although you will have a good start on the principles behind that sort of work if you are inspired to learn more).
 
-</p>
+
 <p>
 Instructor Training events are hands-on throughout: short lessons alternate 
 with individual and group practical exercises, including practice teaching sessions. 
