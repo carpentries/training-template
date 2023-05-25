@@ -164,7 +164,7 @@ Before your training, please visit our Preparing for Instructor Training page fo
   <li>Please read the following:</li>
     <ul>
       <li><a href="https://carpentries.github.io/instructor-training/files/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-      <li><a href="https://carpentries.org/files/reports/Carpentries2020AnnualReport.pdf">The Carpentries Annual Report</a></li>
+      <li><a href="https://carpentries.org/files/reports/2021%20Carpentries%20Annual%20Report_Final.pdf">The Carpentries Annual Report</a></li>
     </ul> 
 </ol> 
 
@@ -223,7 +223,7 @@ for more information.
 </p>
 <ol>
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-  <li><a href="https://carpentries.org/files/reports/Carpentries2020AnnualReport.pdf">The Carpentries 2020 Annual Report</a></li>
+  <li><a href="https://carpentries.org/files/reports/2021%20Carpentries%20Annual%20Report_Final.pdf">The Carpentries 2021 Annual Report</a></li>
 </ol>
 <p>
   Please also read through <em>one</em> episode of one of The Carpentries lessons below   
