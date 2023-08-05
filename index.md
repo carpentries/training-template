@@ -2,6 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 curriculum: "FIXME"   # "instructor training" or "lesson developer training"
+part: "FIXME"         # lesson developer trainings only. The part of the training curriculum being taught at this event: "1" or "2"
 country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
@@ -11,7 +12,7 @@ enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD
 instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+etherpad:             # optional: URL for the workshop Etherpad/CodiMD if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 locations:            # for online events, delete the second section below. for in-person events, customize the second section and delete the first section.
   - venue: "Online"
@@ -61,6 +62,7 @@ locations:            # for online events, delete the second section below. for 
   the pitch.
 -->
 
+{% if page.curriculum == "instructor training" %}
 <p>
 <a href="{{ www.carpentries.org }}">The Carpentries</a> is a community of practice centered around teaching foundational
   coding and data science skills to researchers worldwide. This Instructor Training
@@ -94,6 +96,12 @@ This Instructor Training event is the first step towards certification as a
 Carpentries Instructor. For more details on the other 3 steps, see the <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page.
 For more information, see our <a href="{{ site.training_site }}">Instructor Training Curriculum</a>.
 </p>
+
+{% elif page.curriculum == "lesson developer training" %}
+FIXME
+{% else %}
+FIXME
+{% endif %}
 
 <h3>Code of Conduct</h3>
 
@@ -156,6 +164,8 @@ please get in touch (using contact details below) and we will attempt to provide
 
 {% endif %}
 
+{% if page.curriculum == "instructor training" %}
+
 <h3>How to Prepare for Instructor Training</h3>
 
 Before your training, please visit our Preparing for Instructor Training page for complete instructions. A brief summary of these instructions is as follows
@@ -195,6 +205,10 @@ so we ask that you only cancel if absolutely necessary.
 
 More information on our <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">cancellation and makeup policy</a> is available in The Carpentries Handbook.
 
+{% elif page.curriculum == "lesson developer training" %}
+FIXME
+{% endif %}
+
 <h3 id="contact">Contact</h3>
 <p>
 Please email
@@ -219,6 +233,8 @@ for more information.
 
 <h2 id="preparation" name="preparation">Preparation</h2>
 
+{% if page.curriculum == "instructor training" %}
+
 <p>
   Please read the following before the workshop begins:
 </p>
@@ -238,15 +254,18 @@ for more information.
   <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
   </ul>
 
+{% elif page.curriculum == "lesson developer training" %}
+FIXME
+{% endif %}
 
 <hr/>
 
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
+{% if page.curriculum == "instructor training" %}
 <p>
   Please see <a href="{{ site.training_site }}">the Instructor Training Curriculum</a> for course material and sample schedule for a 2-day event.
 </p>
-
 
 <hr/>
 
@@ -360,9 +379,12 @@ FOUR DAY SCHEDULE
 
 -->
 
+{% elif page.curriculum == "lesson developer training" %}
+FIXME
+{% endif %}
 
 <!--
-  ETHERPAD
+  ETHERPAD FOR INSTRUCTOR TRAINING
 
   At `_misc/etherpad.txt` you will find a template for the etherpad.
 
@@ -374,9 +396,17 @@ FOUR DAY SCHEDULE
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
+
+  ---
+
+  CODIMD FOR LESSON DEVELOPER TRAINING
+
+  FIXME
 -->
 {% if page.etherpad %}
 <hr/>
+
+  {% if page.curriculum == "instructor training" %}
 
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
@@ -384,15 +414,25 @@ FOUR DAY SCHEDULE
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 
+  {% elif page.curriculum == "lesson developer training" %}
+  FIXME
+  {% endif %}
 {% endif %}
 
 <h2 id="pre_workshop_survey">Surveys</h2>
+{% if page.curriculum == "instructor training" %}
+  {% capture pre_survey %}{{ site.instructor_pre_survey }}{% endcapture %}
+  {% capture post_survey %}{{ site.instructor_post_survey }}{% endcapture %}
+{% elif page.curriculum == "lesson developer training" %}
+  {% capture pre_survey %}{{ site.lessondev_pre_survey }}{% endcapture %}
+  {% capture post_survey %}{{ site.lessondev_post_survey }}{% endcapture %}
+{% endif %}
 
 <p>
-  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Before attending the workshop, please fill out <a href="{{ pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
 </p>
 
 
 <p>
-  After the workshop, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  After the workshop, please fill out <a href="{{ post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
 </p>
