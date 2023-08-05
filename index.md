@@ -178,6 +178,7 @@ Before your training, please visit our Preparing for Instructor Training page fo
 After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our
   <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training.
 
+{% if online == "false" %}
 <h3>What to Bring to an In-Person Event</h3>
 
 Participants should bring a laptop that is Internet connected and has a
@@ -186,6 +187,7 @@ functioning browser. If you have it, a device for recording audio and video
 are going to record one another teaching in pairs or threes. It does not have
 to be high-quality, but it should be good enough that you can understand what
 someone is saying.
+{% endif %}
 
 <h3>Attendance and Cancellation</h3>
 Trainees who miss more than 1 hour of the training may be marked absent.
