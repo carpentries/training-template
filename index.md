@@ -97,7 +97,7 @@ Carpentries Instructor. For more details on the other 3 steps, see the <a href="
 For more information, see our <a href="{{ site.training_site }}">Instructor Training Curriculum</a>.
 </p>
 
-{% elif page.curriculum == "lesson developer training" %}
+{% elsif page.curriculum == "lesson developer training" %}
 <p>
 <a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational
   coding and data science skills to researchers worldwide.
@@ -149,7 +149,7 @@ and start building this material into an open source lesson website.
 Trainees are required to trial part of their new lesson with a real audience during the break between this first part and the conclusion of the training.
 When they return for the second and final part of the training, participants will reflect on this experience and discuss how they will approach the remaining stages of lesson development.
 </p>
-{% elif page.part == "2" %}
+{% elsif page.part == "2" %}
 <p>
 In this second and final part of the training, participants will reflect on the experience of trialling their new lesson content,
 the remaining stages of lesson development,
@@ -261,7 +261,7 @@ are going to record one another teaching in pairs or threes. It does not have
 to be high-quality, but it should be good enough that you can understand what
 someone is saying.
 
-{% elif page.curriculum == "lesson developer training" %}
+{% elsif page.curriculum == "lesson developer training" %}
 <h3>How to Prepare for Lesson Developer Training</h3>
 
 <p>
@@ -287,7 +287,7 @@ After the training event, we ask you to complete three follow-up tasks to become
 
 {% if page.curriculum == "instructor training" %}
 {% capture role %}Instructor{% endcapture %}
-{% elif page.curriculum == "lesson developer training" %}
+{% elsif page.curriculum == "lesson developer training" %}
 {% capture role %}Lesson Developer{% endcapture %}
 {% endif %}
 
@@ -473,13 +473,13 @@ FOUR DAY SCHEDULE
 
 -->
 
-{% elif page.curriculum == "lesson developer training" %}
+{% elsif page.curriculum == "lesson developer training" %}
 <p>
   Please see <a href="{{ site.lessondev_training_site }}/instructor/index.html#schedule">the Lesson Developer Training Curriculum</a> for course material and sample schedule for a 6 half-day event.
 </p>
 <p>
   The training is divided into two parts and includes an extended break between the two parts.
-  Part 1 ends with a wrap-up session after the section on <italic>Preparing to Teach</italic>.
+  Part 1 ends with a wrap-up session after the section on <em>Preparing to Teach</em>.
   Part 2 begins with a reflection on the lesson trial runs trainees completed during the break, then switches focus to discuss effective strategies and tools for collaboration.
 </p>
 {% endif %}
@@ -527,7 +527,7 @@ FOUR DAY SCHEDULE
   We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 
-  {% elif page.curriculum == "lesson developer training" %}
+  {% elsif page.curriculum == "lesson developer training" %}
 <p id="codimd">
   <strong>CodiMD:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
@@ -540,7 +540,7 @@ FOUR DAY SCHEDULE
 {% if page.curriculum == "instructor training" %}
   {% capture pre_survey %}{{ site.instructor_pre_survey }}{% endcapture %}
   {% capture post_survey %}{{ site.instructor_post_survey }}{% endcapture %}
-{% elif page.curriculum == "lesson developer training" %}
+{% elsif page.curriculum == "lesson developer training" %}
   {% capture pre_survey %}{{ site.lessondev_pre_survey }}{% endcapture %}
   {% capture post_survey %}{{ site.lessondev_post_survey }}{% endcapture %}
 {% endif %}
