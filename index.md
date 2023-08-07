@@ -86,7 +86,7 @@ not be learning:</p>
 * How to program in R or Python, use Git or SQL, or any of the other topics taught in  <a href="{{ site.dc_site }}">Data Carpentry</a>,
   <a href="{{ site.lc_site }}">Library Carpentry</a>, or
   <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
-* How to create your own lessons from scratch (although you will have a good start on the principles behind that sort of work if you are inspired to learn more).
+* How to create your own lessons from scratch. However, this Instructor Training serves as a good precursor to [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
 
 
 <p>
@@ -98,9 +98,78 @@ For more information, see our <a href="{{ site.training_site }}">Instructor Trai
 </p>
 
 {% elif page.curriculum == "lesson developer training" %}
-FIXME
+<p>
+<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational
+  coding and data science skills to researchers worldwide.
+  This Lesson Developer Training teaches good practices in lesson design and development, and collaboration skills, using open source infrastructure.
+  The target audience is groups of collaborators with an idea for a new lesson they would like to create together, especially if that lesson is intended for short-format training (e.g. part or all of a two-day workshop).
+</p>
+
+<p>After attending Carpentries Lesson Developer Training, participants will be able to:</p>
+
+* collaboratively develop and publish lessons using The Carpentries lesson infrastructure (aka [The Carpentries Workbench](https://carpentries.github.io/workbench/)): lesson template, GitHub, GitHub Pages, etc.
+* identify and characterise the target audience for a lesson.
+* define SMART learning objectives.
+* explain the pedagogical value of authentic tasks.
+* create exercises for formative assessment.
+* explain how considerations of cognitive load can influence the pacing, length, and organisation of a lesson.
+* configure and maintain accessible and usable lesson repositories using best practices, readily available for collaboration.
+* identify and correct accessibility issues in a Carpentries lesson.
+* update and improve lesson material guided by feedback and reflection from teaching.
+* review and provide constructive feedback on lessons.
+
+
+<p> Because we have only limited time, some things are beyond the scope of this training. We will
+not be learning:</p>
+
+* How to track changes and manage branches with Git. To learn these skills, we recommend that you follow the lessons from Library Carpentry and Software Carpentry:
+    * [Library Carpentry: Introduction to Git](https://librarycarpentry.org/lc-git/)
+    * [Version Control with Git](https://swcarpentry.github.io/git-novice/)
+* How to teach a lesson in a workshop. [The Carpentries Instructor Training]({{ site.training_site }}) teaches foundational skills for excellent teaching.
+
+<p>
+Lesson Developer Training events are hands-on throughout:
+short lessons are interspersed with frequent practical exercises, through which trainees construct the basic outline of their lesson and begin to fill in some of the detail.
+For more information, see <a href="{{ site.lessondev_training_site }}">the Lesson Developer Training Curriculum</a>.
+</p>
+
+<p>
+Lesson Developer Training takes place in two parts separated by an extended break.
+</p>
+
+{% if page.part == "1" %}
+<p>
+This first part focusses on backward lesson design and techniques for the development of effective exercises and accessible lesson content.
+Trainees will define the target audience and intended learning outcomes of their lesson,
+produce an outline of the lesson content and narrative,
+prepare exercises and examples for a chosen section,
+and start building this material into an open source lesson website.
+</p>
+<p>
+Trainees are required to trial part of their new lesson with a real audience during the break between this first part and the conclusion of the training.
+When they return for the second and final part of the training, participants will reflect on this experience and discuss how they will approach the remaining stages of lesson development.
+</p>
+{% elif page.part == "2" %}
+<p>
+In this second and final part of the training, participants will reflect on the experience of trialling their new lesson content,
+the remaining stages of lesson development,
+and some techniques and tools they can use to collaborate more effectively on their open source lesson project.
+</p>
 {% else %}
-FIXME
+<div class="alert alert-warning">
+You have not specified which part of Lesson Developer Training will be taught at this event.
+The training part is configured in the <code>part</code> field of the YAML header for this page (<code>index.md</code>).
+Expected values for <code>part</code> are <code>"1"</code> and <code>"2"</code>.
+The current value is: <code>{{ page.part }}</code>.
+</div>
+{% endif %}
+{% else %}
+<div class="alert alert-warning">
+You have specified an invalid curriculum for this training.
+The training curriculum is configured in the <code>curriculum</code> field of the YAML header for this page (<code>index.md</code>).
+Expected values for <code>curriculum</code> are <code>"instructor training"</code> and <code>"lesson developer training"</code>.
+The current value is: <code>{{ page.curriculum }}</code>.
+</div>
 {% endif %}
 
 <h3>Code of Conduct</h3>
@@ -192,10 +261,40 @@ are going to record one another teaching in pairs or threes. It does not have
 to be high-quality, but it should be good enough that you can understand what
 someone is saying.
 
+{% elif page.curriculum == "lesson developer training" %}
+<h3>How to Prepare for Lesson Developer Training</h3>
+
+<p>
+Before the training, please <strong>complete our pre-training survey</strong>.
+You will receive a custom link for your event when you receive your connection information.
+</p>
+<p>
+Before joining Collaborative Lesson Development Training, participants should be able to:
+<ol>
+  <li>write formatted text - bold and italic, headings, links, bullet point and numbered lists - with Markdown.</li>
+  <li>log into GitHub.com and create and edit files using the GitHub web interface.</li>
+</ol>
+<p>
+If you need to learn or refresh these skills before the training,
+visit our <a href="https://carpentries.github.io/lesson-development-training/markdown-github-primer.html">Primer on Markdown and GitHub</a> for links to resources to help learn these skills.
+</p>
+
+<h3> Checkout: The Instructor Certification Process</h3>
+After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our
+  <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training.
+
+{% endif %}
+
+{% if page.curriculum == "instructor training" %}
+{% capture role %}Instructor{% endcapture %}
+{% elif page.curriculum == "lesson developer training" %}
+{% capture role %}Lesson Developer{% endcapture %}
+{% endif %}
+
 <h3>Attendance and Cancellation</h3>
 Trainees who miss more than 1 hour of the training may be marked absent.
-Instructor certification cannot be completed without full attendance at
-an Instructor Training event. If you unexpectedly need to miss more than
+{{ role }} certification cannot be completed without full attendance at
+an {{ role }} Training event. If you unexpectedly need to miss more than
 1 hour of your event, please contact your Trainers (contact info below).
 
 For events in which registration occurs through The Carpentries via Eventbrite,
@@ -203,11 +302,10 @@ cancellation may be performed in Eventbrite up to the start of the event.
 Canceled seats cannot be filled after the 1 week registration deadline for these events,
 so we ask that you only cancel if absolutely necessary.
 
+{% if page.curriculum == "instructor training" %}
 More information on our <a href="https://docs.carpentries.org/topic_folders/instructor_training/cancellations_and_makeups.html">cancellation and makeup policy</a> is available in The Carpentries Handbook.
-
-{% elif page.curriculum == "lesson developer training" %}
-FIXME
 {% endif %}
+
 
 <h3 id="contact">Contact</h3>
 <p>
@@ -254,8 +352,6 @@ for more information.
   <li><a href="{{ site.swc_site }}/lessons">Software Carpentry Lessons</a></li>
   </ul>
 
-{% elif page.curriculum == "lesson developer training" %}
-FIXME
 {% endif %}
 
 <hr/>
@@ -266,8 +362,6 @@ FIXME
 <p>
   Please see <a href="{{ site.training_site }}">the Instructor Training Curriculum</a> for course material and sample schedule for a 2-day event.
 </p>
-
-<hr/>
 
 <!--
 NOTE: This space can be customized to reflect the unique schedule of your workshop. If you would like it to display,
@@ -380,8 +474,16 @@ FOUR DAY SCHEDULE
 -->
 
 {% elif page.curriculum == "lesson developer training" %}
-FIXME
+<p>
+  Please see <a href="{{ site.lessondev_training_site }}/instructor/index.html#schedule">the Lesson Developer Training Curriculum</a> for course material and sample schedule for a 6 half-day event.
+</p>
+<p>
+  The training is divided into two parts and includes an extended break between the two parts.
+  Part 1 ends with a wrap-up session after the section on <italic>Preparing to Teach</italic>.
+  Part 2 begins with a reflection on the lesson trial runs trainees completed during the break, then switches focus to discuss effective strategies and tools for collaboration.
+</p>
 {% endif %}
+<hr/>
 
 <!--
   ETHERPAD FOR INSTRUCTOR TRAINING
@@ -401,7 +503,18 @@ FIXME
 
   CODIMD FOR LESSON DEVELOPER TRAINING
 
-  FIXME
+  A template CodiMD for notetaking at Collaborative Lesson Development Training
+  is available at https://codimd.carpentries.org/cldt-notes-template.
+  To create a CodiMD for your training, navigate to
+
+      http://codimd.carpentries.org/YYYY-MM-DD-cldt-site
+
+  where 'YYYY-MM-DD-cldt-site' is the identifier for your training,
+  e.g., '2015-06-10-cldt-esu'.
+  Then copy the contents of the template CodiMD and paste it into your new document.
+
+  If you find that the template is outdated or needs fixing, please open an issue
+  on the training curriculum repository: https://github.com/carpentries/lesson-development-training/issues/new
 -->
 {% if page.etherpad %}
 <hr/>
@@ -415,7 +528,11 @@ FIXME
 </p>
 
   {% elif page.curriculum == "lesson developer training" %}
-  FIXME
+<p id="codimd">
+  <strong>CodiMD:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <br/>
+  We will use this CodiMD document for chatting, taking notes, and sharing URLs and bits of code during the training.
+</p>
   {% endif %}
 {% endif %}
 
