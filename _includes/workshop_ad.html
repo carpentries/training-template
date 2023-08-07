@@ -1,10 +1,17 @@
 {% comment %}
   Advertising box at the top of a workshop website home page.
 {% endcomment %}
+
+{% assign curriculum_words = page.curriculum | split: ' ' %}
+{% capture title %}
+  {% for word in curriculum_words %}
+    {{ word | capitalize }}
+  {% endfor %}{% endcapture %}
+
 <div class="jumbotron">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h2>Instructor Training</h2>
+      <h2>{{ title }}</h2>
       <div class="row">
         <div class="col-md-6">
 	  <p>{% for loc in page.locations %}{{ loc.venue }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
