@@ -1,25 +1,21 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
+venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latitude: "45"        # decimal latitude of training venue (use https://www.latlong.net/)
+longitude: "-1"       # decimal longitude of the training venue (use https://www.latlong.net)
 humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["FIXME"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-locations:            # for online events, delete the second section below. for in-person events, customize the second section and delete the first section.
-  - venue: "Online"
-    address: ""
-
-  - venue: "Euphoria University"
-    address: "Room A, 123 Forth Street, Blimingen, Euphoria"
-    latlng: "41.7901128,-87.6007318"
-
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -61,11 +57,11 @@ locations:            # for online events, delete the second section below. for 
 -->
 
 <p>
-<a href="{{ www.carpentries.org }}">The Carpentries</a> is a community of practice centered around teaching foundational
-  coding and data science skills to researchers worldwide. This Instructor Training
-  event is designed to prepare trainees to certify and participate as Carpentries
-  Instructors. However, much of our curriculum focuses on educational principles that
-  apply across a wide variety of contexts. We also welcome participants who do not plan
+<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational 
+  coding and data science skills to researchers worldwide. This Instructor Training 
+  event is designed to prepare trainees to certify and participate as Carpentries 
+  Instructors. However, much of our curriculum focuses on educational principles that 
+  apply across a wide variety of contexts. We also welcome participants who do not plan 
   to certify but simply wish to become a better teacher.
 </p>
 
@@ -100,6 +96,15 @@ All participants are required to abide by The Carpentries <a href="{{
 site.swc_site }}/conduct/">Code of Conduct</a>.
 
 
+
+{% assign begin_address = page.address | slice: 0, 4 | downcase  %}
+{% if page.address == "online" %}
+{% assign online = "true_private" %}
+{% elsif begin_address contains "http" %}
+{% assign online = "true_public" %}
+{% else %}
+{% assign online = "false" %}
+{% endif %}
 <!--
   LOCATION
 
@@ -110,32 +115,33 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   -->
 <h3 id="where">Where</h3>
 
-{% assign inperson = "false" %}
-{% for loc in page.locations %}
-
-{% capture online %}{{ loc.venue | downcase }}{% endcapture %}
-
-<h4>{{ loc.venue }}</h4>
-
-{% if online == "online" %}
-
-This is an online event and will be conducted using the Zoom video conferencing platform. No log-in is needed.
-However, if you have not used Zoom before, please click the link a few minutes early as it may prompt you to
-install the Zoom app or browser extension. You should have received a connection link in the same email that
-directed you to this website. If you found this page by another means and did not receive the connection link,
-please check your spam folder and email instructor.training@carpentries.org with your Trainers (contact details below) on cc.
-
-{% else %}
-{% assign inperson = "true" %}
-{{ loc.address }} {% if loc.latlng %} Get directions with
-    <a href="//www.openstreetmap.org/?mlat={{loc.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-    or
-    <a href="//maps.google.com/maps?q={{loc.latlng}}">Google Maps</a>. {% endif %}
-
+{% if online == "false" %}
+<p id="venue">
+  {{page.address}}.
+  {% if page.latitude and page.longitude %}
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  {% endif %}
+</p>
+{% elsif online == "true_public" %}
+<p id="venue">
+  Online at <a href="{{page.address}}">{{page.address}}</a>.
+  The training will be conducted using the Zoom video conferencing platform. No log-in is needed.
+  However, if you have not used Zoom before, please click the link a few minutes early as it may prompt you to
+  install the Zoom app or browser extension. You should have received a connection link in the same email that
+  directed you to this website. If you found this page by another means and did not receive the connection link,
+  please check your spam folder and email instructor.training@carpentries.org with your Trainers (contact details below) on cc.
+</p>
+{% elsif online == "true_private" %}
+<p id="venue">
+  This training will take place online.
+  The instructors will provide you with the information you will need to connect to this meeting.
+</p>
 {% endif %}
-{% endfor %}
 
-{% if inperson == "true" %}
+{% if online == "false" %}
 
 <h4 id="accessibility">Accessibility</h4>
 
@@ -180,6 +186,7 @@ functioning browser. If you have it, a device for recording audio and video
 are going to record one another teaching in pairs or threes. It does not have
 to be high-quality, but it should be good enough that you can understand what
 someone is saying.
+{% endif %}
 
 <h3>Attendance and Cancellation</h3>
 Trainees who miss more than 1 hour of the training may be marked absent.
