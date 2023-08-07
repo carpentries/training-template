@@ -35,6 +35,10 @@ locations:            # for online events, delete the second section below. for 
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
 
+{% if page.curriculum == "lesson developer training" %}
+<img src="fig/CLDT-hex-sticker.svg" alt="" width="20%"/>{: style="float: right"}
+{% endif %}
+
 <!--
   EVENTBRITE
 
@@ -107,7 +111,7 @@ For more information, see our <a href="{{ site.training_site }}">Instructor Trai
 
 <p>After attending Carpentries Lesson Developer Training, participants will be able to:</p>
 
-* collaboratively develop and publish lessons using The Carpentries lesson infrastructure (aka [The Carpentries Workbench](https://carpentries.github.io/workbench/)): lesson template, GitHub, GitHub Pages, etc.
+* collaboratively develop and publish lessons using The Carpentries lesson infrastructure (aka [The Carpentries Workbench](https://carpentries.github.io/workbench/))
 * identify and characterise the target audience for a lesson.
 * define SMART learning objectives.
 * explain the pedagogical value of authentic tasks.
