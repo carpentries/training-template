@@ -57,11 +57,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 
 <p>
-<a href="{{ www.carpentries.org }}">The Carpentries</a> is a community of practice centered around teaching foundational
-  coding and data science skills to researchers worldwide. This Instructor Training
-  event is designed to prepare trainees to certify and participate as Carpentries
-  Instructors. However, much of our curriculum focuses on educational principles that
-  apply across a wide variety of contexts. We also welcome participants who do not plan
+
+<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational 
+  coding and data science skills to researchers worldwide. This Instructor Training 
+  event is designed to prepare trainees to certify and participate as Carpentries 
+  Instructors. However, much of our curriculum focuses on educational principles that 
+  apply across a wide variety of contexts. We also welcome participants who do not plan 
   to certify but simply wish to become a better teacher.
 </p>
 
