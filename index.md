@@ -276,16 +276,12 @@ You will receive a custom link for your event when you receive your connection i
 Before joining Collaborative Lesson Development Training, participants should be able to:
 <ol>
   <li>write formatted text - bold and italic, headings, links, bullet point and numbered lists - with Markdown.</li>
-  <li>log into GitHub.com and create and edit files using the GitHub web interface.</li>
+  <li>log into <a href="https://github.com/" target="_blank">GitHub.com</a> and create and edit files using the GitHub web interface.</li>
 </ol>
 <p>
 If you need to learn or refresh these skills before the training,
 visit our <a href="https://carpentries.github.io/lesson-development-training/markdown-github-primer.html">Primer on Markdown and GitHub</a> for links to resources to help learn these skills.
 </p>
-
-<h3> Checkout: The Instructor Certification Process</h3>
-After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our
-  <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training.
 
 {% endif %}
 
@@ -303,7 +299,7 @@ an {{ role }} Training event. If you unexpectedly need to miss more than
 
 For events in which registration occurs through The Carpentries via Eventbrite,
 cancellation may be performed in Eventbrite up to the start of the event.
-Canceled seats cannot be filled after the 1 week registration deadline for these events,
+Cancelled seats cannot be filled after the 1 week registration deadline for these events,
 so we ask that you only cancel if absolutely necessary.
 
 {% if page.curriculum == "instructor training" %}
@@ -331,12 +327,11 @@ Please email
 for more information.
 </p>
 
+
+{% if page.curriculum == "instructor training" %}
 <hr/>
 
 <h2 id="preparation" name="preparation">Preparation</h2>
-
-{% if page.curriculum == "instructor training" %}
-
 <p>
   Please read the following before the workshop begins:
 </p>
