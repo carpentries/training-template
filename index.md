@@ -86,7 +86,7 @@ not be learning:</p>
 Instructor Training events are hands-on throughout: short lessons alternate
 with individual and group practical exercises, including practice teaching sessions.
 This Instructor Training event is the first step towards certification as a
-Carpentries Instructor. For more details on the other 3 steps, see the <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page.
+Carpentries Instructor. For more details on the other 3 steps, see the <a href="{{ site.training_site }}/checkout.html">Checkout Instructions</a> page.
 For more information, see our <a href="{{ site.training_site }}">Instructor Training Curriculum</a>.
 </p>
 
@@ -177,7 +177,7 @@ Before your training, please visit our Preparing for Instructor Training page fo
 
 <h3> Checkout: The Instructor Certification Process</h3>
 After the training event, we ask you to complete three follow-up tasks to become a certified Instructor. These requirements are detailed on our
-  <a href="{{ site.training_site }}/checkout/">Checkout Instructions</a> page and will be discussed at our training.
+  <a href="{{ site.training_site }}/checkout.html">Checkout Instructions</a> page and will be discussed at our training.
 
 {% if online == "false" %}
 <h3>What to Bring to an In-Person Event</h3>
