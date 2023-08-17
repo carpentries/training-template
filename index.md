@@ -57,7 +57,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 
 <p>
-
 <a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational 
   coding and data science skills to researchers worldwide. This Instructor Training 
   event is designed to prepare trainees to certify and participate as Carpentries 
@@ -115,6 +114,7 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   address.
   -->
 <h3 id="where">Where</h3>
+
 
 {% if online == "false" %}
 <p id="venue">
@@ -252,7 +252,7 @@ for more information.
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
 <p>
-  Please see <a href="{{ site.training_site }}">the Instructor Training Curriculum</a> for course material and sample schedule for a 2-day event.
+  Please see <a href="{{ site.training_site }}/instructor/index.html#schedule">the Instructor Training Curriculum</a> for course material and sample schedule for a 2-day event.
 </p>
 
 
