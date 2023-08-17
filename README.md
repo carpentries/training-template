@@ -20,9 +20,9 @@ template for creating websites for Instructor Training workshops.
 If you run into problems,
 or have ideas about how to make this process simpler,
 please [get in touch](#getting-and-giving-help).
-The pages on [customizing your website][customization],
-the [FAQ][faq],
-and the [design notes][design] have more detail on what we do and why.
+The section on [customizing your website][customization],
+and the [FAQ][faq] and [design notes][design] from the related template fore workshop websites
+have more detail on what we do and why.
 
 ## Creating a Repository
 
@@ -168,7 +168,7 @@ you *must* also edit `_config.yml` to set these three values:
 
 2.  `title` is the title of your workshop (typically the venue and date).
 
-Note: `carpentry and `email` duplicate information that's in `index.md`,
+Note: `carpentry` and `email` duplicate information that's in `index.md`,
 but there is no way to avoid this
 without requiring people to edit both files in the usual case
 where no extra pages are created.
@@ -210,6 +210,8 @@ or [mail us][email].
 
 [carpentry-site]: https://carpentries.org/
 [contact]: mailto:checkout@carpentries.org
+[customization]: https://github.com/carpentries/training-template#customizing-your-website
+[design]: https://carpentries.github.io/workshop-template/design/
 [faq]: https://carpentries.github.io/workshop-template/faq/
 [github-project-pages]: https://help.github.com/articles/creating-project-pages-manually/
 [importer]: http://import.github.com/new
