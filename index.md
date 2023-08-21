@@ -272,12 +272,21 @@ someone is saying.
 Before the training, please <strong>complete our pre-training survey</strong>.
 You will receive a custom link for your event when you receive your connection information.
 </p>
+<p>Before joining the first training session, take a few minutes to think about and note down your answers to the following questions:
+<ol>
+    <li>What is the topic of the lesson that you plan to develop based on this training?</li>
+    <li>Have you created training material on this topic before?</li>
+    <li>What is motivating you to create this lesson?</li>
+</ol>
+</p>
+<h4>Prerequisite Knowledge</h4>
 <p>
 Before joining Collaborative Lesson Development Training, participants should be able to:
 <ol>
   <li>write formatted text - bold and italic, headings, links, bullet point and numbered lists - with Markdown.</li>
   <li>log into <a href="https://github.com/" target="_blank">GitHub.com</a> and create and edit files using the GitHub web interface.</li>
 </ol>
+</p>
 <p>
 If you need to learn or refresh these skills before the training,
 visit our <a href="https://carpentries.github.io/lesson-development-training/markdown-github-primer.html">Primer on Markdown and GitHub</a> for links to resources to help learn these skills.
