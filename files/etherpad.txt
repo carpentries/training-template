@@ -11,21 +11,21 @@ All content is publicly available under the Creative Commons Attribution License
 Sign in: Name, Institution, Email, Twitter (optional)
 Please sign in so we can record your attendance.
 
- 
- 
+
+
 
 
 Please fill out the pre-training survey at https://www.surveymonkey.com/r/instructor_training_pre_survey?workshop_id=instructor-training
 
 I. Welcome
 
-Code of Conduct: 
+Code of Conduct:
 https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
 
 Introductions
 
 Information for Today's Learners
-Add your name to the Etherpad above 
+Add your name to the Etherpad above
 Introduce yourselves! In your introduction, (a) explain your work in 3 words and (b) say something you are proud of (not necessarily related to research or teaching).
 
 Our First Exercise (2 min)
@@ -44,29 +44,29 @@ Assessing Trainee Motivation and Prior Knowledge
 
 Background (3 min)
 Have you ever participated in a Software, Data or Library Carpentry Workshop?
- 
-Yes, I have taken a workshop. 
+
+Yes, I have taken a workshop.
 Yes, I have been a workshop helper.
 Yes, I organized a workshop.
-No, but I am familiar with what is taught at a workshop. 
+No, but I am familiar with what is taught at a workshop.
 No, and I am not familiar with what is taught at a workshop.
- 
+
 Which of these most accurately describes your teaching experience?
- 
-I have been a graduate or undergraduate teaching assistant for a university/college course. 
-I have not had any teaching experience in the past. 
+
+I have been a graduate or undergraduate teaching assistant for a university/college course.
+I have not had any teaching experience in the past.
 I have taught a seminar, workshop, or other short or informal course.
 I have been the instructor-of-record for my own university/college course.
 I have taught at the primary education level.
 I have taught informally through outreach programs, hackathons, laboratory demonstrations, and similar activities.
-  
+
 Key Points:
 The Carpentries are communities of practice. We strive to provide a welcoming environment for all learners and take our Code of Conduct seriously.
 This episode sets the stage for the entire workshop. The introductions and exercises help everyone begin to develop a relationship and trust.
 This workshop will cover general teaching pedagogy and how it applies specifically to the Carpentries.
 Learner motivation and prior knowledge vary widely, but can be assessed with a quick multiple choice question.
- 
- 
+
+
 II. Building Skill with Practice
 
 The Carpentries Pedagogical Model
@@ -79,9 +79,9 @@ Expert
 
 Cognitive Development and Mental Models (5 min)
 In the Etherpad, write your primary research domain or area of expertise and some aspects of the mental model you use to frame and understand your work. What concepts/facts are included? What types of relationships are included?
- 
- 
- 
+
+
+
 
 
 The Importance of Going Slowly
@@ -106,10 +106,10 @@ Identify the Misconceptions (10 min)
 Choose one of the wrong answers to the question below and write in the Etherpad what the misconception is associated with that wrong answer.
 Q: what is 27 + 15 ?
 a) 42
-b) 32 
-c) 312 
-d) 33 
- 
+b) 32
+c) 312
+d) 33
+
 Handling Outcomes (10 min)
 Formative assessments allow us as instructors to adapt our instruction to our audience. What should we do as instructors if the class votes for:
 1. mostly one of the wrong answers?
@@ -117,50 +117,50 @@ Formative assessments allow us as instructors to adapt our instruction to our au
 3. an even spread among options?
 
 For one of the above, enter your answer below:
-    
- 
- 
- 
+
+
+
+
 
 Modeling Novice Mental Models (10-15 min)
 Take 10 minutes to create a multiple choice question related to a topic you intend to teach. Type it into the Etherpad and explain the diagnostic power of each its distractors, i.e., what misconception is each distractor meant to identify?
 
- 
+
 Formative Assessments Should be Frequent
 
 How Many? (5 min)
-The Carpentries use formative assessments often. How many have we done since the start of this workshop? Put your guess in the Etherpad along with one example and the purpose that assessment served. 
- 
- 
- 
- 
+The Carpentries use formative assessments often. How many have we done since the start of this workshop? Put your guess in the Etherpad along with one example and the purpose that assessment served.
+
+
+
+
 
 Confronting the Contradiction (Optional)
 Describe a misconception you have encountered in your own learning or teaching and how to get learners to confront it.
 
- 
+
 Key Points:
 Our goal when teaching novices is to help them construct useful mental models.
 This requires practice and feedback.
 Formative assessments provide practice for learners and feedback to learners and instructors.
- 
- 
+
+
 III. Expertise and Instruction
 
 What Makes an Expert?
 
 What Is an Expert? (5 min)
 Name someone that you think is an expert (doesn't matter what they're an expert in). As an expert, what makes them special or different from other people?
- 
- 
- 
- 
+
+
+
+
 
 What is something that you're an expert in? How does your experience when you're acting as an expert differ from when you're not an expert?
- 
- 
- 
- 
+
+
+
+
 
 Connections and Mental Models
 
@@ -168,40 +168,40 @@ Limitations of Expertise
 
 Fluid Representations (5 min)
 Give at least one example of a fluid representation that you use in your own work. If you can, also give an example of a fluid representation that might occur in a Carpentry lesson.
- 
- 
- 
- 
+
+
+
+
 
 Diagnosis (5 min)
 What is an error message that you encounter frequently in your work? (These are often syntax errors.) Take a few minutes to plan out how you would explain that error message to your learners. Write the error and your explaination below.
- 
- 
- 
- 
+
+
+
+
 
 Blind Spots (5 min)
 Is there anything you're learning how to do right now? Can you identify something that you still need to think about, but your teacher can do without thinking about it?
- 
- 
- 
- 
+
+
+
+
 
 
 Think about the area of expertise you identified earlier. What could a potential blind spot be?
- 
- 
- 
- 
+
+
+
+
 
 Dismissive Language
 
 Changing Your Language (5 min)
 What other words or phrases can have the effect of demotivating learners? What alternatives can we use to express this meaning in a positive and motivational way? In the Etherpad, make a list of demotivating words/phrases and alternatives.
- 
- 
- 
- 
+
+
+
+
 
 You Are Not Your Learners
 
@@ -211,7 +211,7 @@ Key Points:
 Experts face challenges when teaching novices due to expert blind spot.
 Expert blind spot: knowing something so well that it seems easy when it's not.
 With practice, we can learn to overcome our expert blind spot.
- 
+
 IV. Memory and Cognitive Load
 
 Types of Memory
@@ -220,21 +220,21 @@ Test Your Working Memory (5 min)
 This website (https://cat.xula.edu/thinker/memory/working/serial) implements a short test of working memory. You will be presented with a variety of different symbols, each presented for only a very short time, and asked to select those that you remember from a second set of symbols. There are 21 steps to the quiz, after which you can skip over the survey to see your results.
 
 What was your score? Write your answer below.
- 
- 
- 
+
+
+
 
 
 
 Strategies For Memory Management
 
-Improving Short-term Memory with Chunking (5 min) 
+Improving Short-term Memory with Chunking (5 min)
 Repeat the memory exercise you did earlier, but this time, try to form short stories or phrases from the words you see.
 Write the number of words you remembered in the Etherpad. How does this compare with your first attempt?
- 
- 
- 
- 
+
+
+
+
 
 
 Active Learning Through Formative Assessment
@@ -259,14 +259,14 @@ def total_length(words):
     for word in words:
         total += len(word)
     return total
-    
+
 # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
 def word_lengths(words):
     lengths = ____
     for word in words:
         lengths ____
     return lengths
-    
+
 # concatenate_all(["red", "green", "blue"]) => "redgreenblue"
 def concatenate_all(words):
     result = ____
@@ -321,11 +321,11 @@ Teach Most Useful First
 https://carpentries.github.io/instructor-training/fig/what-to-teach.png
 
 Authentic Tasks: Think, Pair, Share (10 min)
-Think about some task you did this week that uses one or more of the skills we teach, 
-(e.g. wrote a function, bulk downloaded data, built a plot in R, forked a repo) and explain how you would use it (or a simplified version of it) as an exercise or example in class. 
-Pair up with your neighbor and decide where this exercise fits on a graph of "short/long time to master" 
-and "low/high usefulness". 
-In the class Etherpad, Share the task and where it fits on the graph. 
+Think about some task you did this week that uses one or more of the skills we teach,
+(e.g. wrote a function, bulk downloaded data, built a plot in R, forked a repo) and explain how you would use it (or a simplified version of it) as an exercise or example in class.
+Pair up with your neighbor and decide where this exercise fits on a graph of "short/long time to master"
+and "low/high usefulness".
+In the class Etherpad, Share the task and where it fits on the graph.
 As a group, we will discuss how these relate back to our "teach most immediately useful first" approach.
 
 Other Motivational Strategies
@@ -358,29 +358,29 @@ Give students an opportunity to reflect.
 
 Brainstorming Motivational Strategies (5 min)
 Think back to a computational (or other) course you took in the past, and identify one thing the instructor did that motivated you. Pair up with your neighbor and discuss what motivated you.Share the motivational story in the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 
 Why Do You Teach? (5 min)
 We all have a different motivation for teaching, and that is a really good thing! We want instructors with diverse backgrounds because you each bring something unique to our community.
 What motivates you to teach? Write a short explanation of what motivates you to teach. Save this as part of your teaching philosophy for future reference.
- 
- 
- 
- 
+
+
+
+
 
 
 How Not to Demotivate Your Learners
 
 Brainstorming Demotivational Experiences (5 min)
 Think back to a time when you were demotivated as a student (or when you demotivated a student). Pair up with your neighbor and discuss what could have been done differently in the situation to make it not demotivating. Share your story in the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 
 Psychological Demotivators
@@ -391,27 +391,27 @@ Lack of Inclusivity
 
 Overcoming Imposter Syndrome (Optional, 5 min)
 Think of a time when learning something was difficult for you, or you made a mistake that seemed silly or embarrassing. Is that task still hard for you? In the Etherpad, describe how you might you use this as a motivational story to help your learners overcome their own imposter syndrome.
- 
- 
- 
- 
+
+
+
+
 
 
 
 Learning About Accessibility (5 min)
 The UK Home Office has put together a set of posters  (https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf ) of dos and don'ts for making visual and web-based materials more accessible for different populations. Take a look at one of these posters and put one thing you've learned in the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 
 What Happens When Accessibility is an Issue? (Optional, 5 min)
 Think of a time when you've been affected by, or noticed someone else being affected by issues with accessibility. This may have been at a conference you attended where the elevator was out of service, or maybe a class you were taking relied on audio delivery of content. Describe what happened, how it impacted your (or someone else's) ability to be involved and what could have been done to provide better accessibility in this case
- 
- 
- 
- 
+
+
+
+
 
 
 Inclusivity
@@ -436,7 +436,7 @@ Share: A few thoughts in the etherpad (or go around the room and discuss)
 Praise Influences Mindset
 
 Choosing our Praises (5 min)
-Since we're so used to being praised for our performance, it can be challenging to change the way we praise our learners. 
+Since we're so used to being praised for our performance, it can be challenging to change the way we praise our learners.
 Which of these are examples of performance-based, effort-based, or improvement-based praise?
 I like the way you tried a couple of different strategies to solve that problem.
 You're getting really good at that. Keep up the hard work!
@@ -448,10 +448,10 @@ Errors are Essential to Learning
 Helping Learners Learn From Mistakes (5 min)
 A learner at your workshop asks for your help with an exercise and shows you their attempt at solving it. You see they've made an error that shows they misunderstand something fundamental about the lesson (for example, in the shell lesson, they forgot to put a space between ls and the name of the directory they are looking at). What would you say to the learner?
 In the Etherpad, describe the error your learner has made and how you would respond.
- 
- 
- 
- 
+
+
+
+
 
 
 Perseverance Predicts Success
@@ -460,10 +460,10 @@ How Are You Gritty? (Optional, 5 min)
 A previous exercise asked you to think of a time when learning something was difficult for you, or you made a mistake that seemed silly or embarrassing.
 How did you motivate yourself to continue learning? How did it feel to persist in the face of challenge? How do you feel now about your capabilities in this area?
 In the Etherpad, describe how you could use this story to illustrate the importance of grit for your learners.
- 
- 
- 
- 
+
+
+
+
 
 
 Habits of Lifelong Learners
@@ -479,15 +479,15 @@ Lesson Study: Applying a Growth Mindset to Teaching
 
 Giving Feedback (10 min)
 We'll start by observing some examples of Carpentries-style workshop teaching and providing some feedback.
-Watch this example teaching video (https://www.youtube.com/watch?v=-ApVt04rB4U) as a group and then give feedback on it. Put your feedback in the Etherpad. Organize your feedback along two axes: positive vs. negative and content (what was said) vs. presentation (how it was said). 
+Watch this example teaching video (https://www.youtube.com/watch?v=-ApVt04rB4U) as a group and then give feedback on it. Put your feedback in the Etherpad. Organize your feedback along two axes: positive vs. negative and content (what was said) vs. presentation (how it was said).
 Content +
- 
+
 Content -
 
-Presentation + 
- 
+Presentation +
+
 Presentation -
- 
+
 
 Feedback on Yourself (25 min)
 Split into groups of three.
@@ -496,29 +496,29 @@ Get together with your group and have each person teach their segment to the gro
 After the first person finishes, rotate roles (they become the videographer, the audience becomes the instructor, the person who was recording becomes the audience) and then rotate roles again.
 After everyone in the group of three has finished teaching, watch the videos as a group. Everyone gives feedback on all three videos, i.e., people give feedback on themselves as well as on others.
 After everyone has given feedback on all of the videos, return to the main group and put everyone's feedback about you into the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 
 Feedback Is Hard
 
 Feedback on Feedback (Optional, 15 min)
 Watch either this video(https://vimeo.com/139316669 ) (8:40) or this one (https://vimeo.com/139181120 ) (11:42). For each, give feedback following the 2x2 model. Put your feedback in the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 
 Using Feedback (5 min)
 Look back at the feedback you received on your teaching in an earlier exercise. How do you feel about this feedback? Is it fair and reasonable? Do you agree with it?
 Identify at least one specific change you will make to your teaching based on this feedback. Describe your change in the Etherpad.
- 
- 
- 
- 
+
+
+
+
 
 Skill Acquisition: What level are your teaching skills? (Optional)
 As with computational skills, people have a tendency to think of teaching as something you are "just good at" or not. However, teaching is a skill, and expertise develops with attentive practice. Examine the descriptions of "novice," "competent practitioner," and "expert." Where do you think you fall with regard to teaching? What have you learned about teaching? What are you aware of that you still need to learn? Discuss with a partner and then write some thoughts below.
@@ -531,7 +531,7 @@ Feedback is most effective when those involved share ground rules and expectatio
 IX. Wrap-Up and Homework for Tomorrow
 
 To prepare for tomorrow, please:
-Read about the two types of Carpentries workshops: self-organized (http://www.datacarpentry.org/self-organized-workshops/ ) and centrally-organized (http://www.datacarpentry.org/workshops-host/ ) and the checklists these pages link to. 
+Read about the two types of Carpentries workshops: self-organized (http://www.datacarpentry.org/self-organized-workshops/ ) and centrally-organized (http://www.datacarpentry.org/workshops-host/ ) and the checklists these pages link to.
 Prepare for the live coding exercises. If you haven't already, pick an episode from an existing Software, Data or Library Carpentry lesson and read through it carefully. Tomorrow, you will use this to practice live coding for 3 minutes in groups of three. Your group members will comment on the delivery and content. Recommended episodes are listed here: https://carpentries.github.io/instructor-training/12-homework/.
 
 Feedback (5 min)
@@ -577,29 +577,29 @@ In the videos, the bash shell for loop is taught, and it is assumed learners are
 
 poor live coding: https://www.youtube.com/watch?v=bXxBeNkKmJE&feature=youtu.be
 Content +
- 
+
 Content -
 
-Presentation + 
- 
+Presentation +
+
 Presentation -
- 
+
 good live coding: https://www.youtube.com/watch?v=SkPmwe_WjeY&feature=youtu.be
 Content +
- 
+
 Content -
 
-Presentation + 
- 
+Presentation +
+
 Presentation -
- 
+
 
 Top Ten Tips for Participatory Live Coding in a Workshop
 
 Sticky Notes
 
 Practice Teaching (25 min)
-Teach 3 minutes of your chosen lesson episode using live coding to one or two fellow trainees, then swap and watch while the other person(s) live codes for you. Explain in advance to your fellow trainee(s) what you will be teaching and what the learners you teach it to are expected to be familiar with. Don't record the live coding sessions. Give each other feedback using the 2x2 rubric we discussed previously and enter the feedback you received in the below. 
+Teach 3 minutes of your chosen lesson episode using live coding to one or two fellow trainees, then swap and watch while the other person(s) live codes for you. Explain in advance to your fellow trainee(s) what you will be teaching and what the learners you teach it to are expected to be familiar with. Don't record the live coding sessions. Give each other feedback using the 2x2 rubric we discussed previously and enter the feedback you received in the below.
 
 
 
@@ -639,7 +639,7 @@ Where are your checkpoints? (10 min)
 
 Have a look at your lesson again. Choose a learning objective, and identify where in the lesson that objective should reasonably be achieved. How will you know that that objective has been met for all learners? Will this be clear to them?
 
-Make a plan for where in your lesson you will use different types of formative assessment to help everyone in the room monitor their progress. Keep in mind that formative assessment can can take many forms, including multiple choice questions, faded examples, spontaneous questions and calls for sticky notes. 
+Make a plan for where in your lesson you will use different types of formative assessment to help everyone in the room monitor their progress. Keep in mind that formative assessment can can take many forms, including multiple choice questions, faded examples, spontaneous questions and calls for sticky notes.
 
 Write some notes or thoughts about this process below for discussion.
 
@@ -658,7 +658,7 @@ XIII. More Practice Live Coding
 Round Two (45 min)
 First, have a look at the rubric that is given to trainers as a suggested framework for evaluating the online teaching demonstration sessions that are part of instructor checkout. Does this rubric make sense? Take a moment to think about things you'd like to do differently with your next live coding practice. This is also a good time to ask questions about teaching demonstration.
 
-Next, get back into the same groups you did your live coding with. Take turns re-teaching your chosen live coding session, making sure to incorporate changes based on the feedback you received and any new ideas based on reading the rubric. Give feedback to each other using the rubric this time. 
+Next, get back into the same groups you did your live coding with. Take turns re-teaching your chosen live coding session, making sure to incorporate changes based on the feedback you received and any new ideas based on reading the rubric. Give feedback to each other using the rubric this time.
 
 When you are finished, add some thoughts on this process to the Etherpad: What did you change? Did it work better or worse with the change? How might you do it if you were to teach it again?
 
@@ -761,7 +761,7 @@ Software Carpentry on Twitter https://twitter.com/swcarpentry
 Data Carpentry on Twitter https://twitter.com/datacarpentry
 Library Carpentry on Twitter https://twitter.com/LibCarpentry
 Carpentries on Twitter https://twitter.com/thecarpentries
-Slack https://swc-slack-invite.herokuapp.com
+Slack https://slack-invite.carpentries.org/
 Gitter https://gitter.im/LibraryCarpentry/Lobby (Library Carpentry)
 Facebook https://www.facebook.com/carpentries/
 
@@ -796,12 +796,12 @@ XVII. Workshop Introductions
 Setting the Workshop Environment
 
 Your Academic Past (5 min)
-Think back to courses or workshops you really liked or didn't like. 
-How did those courses start on the first day? 
-Were you confident in the instructors abilities? 
-Did you feel like they were enthusiastic about the course and invested in you? 
-Was it clear what you were going to be learning? 
-Were you excited about the material? 
+Think back to courses or workshops you really liked or didn't like.
+How did those courses start on the first day?
+Were you confident in the instructors abilities?
+Did you feel like they were enthusiastic about the course and invested in you?
+Was it clear what you were going to be learning?
+Were you excited about the material?
 Did you leave that first day thinking the instructor was uninterested, that you weren't the students they wanted to be teaching or you had no idea what the course was supposed to be about?
 
 
@@ -810,7 +810,7 @@ Get into small groups (3-4 people) and discuss the questions below for 5 minutes
 What do you hope to accomplish in a workshop introduction?
 What information do you need to include in an introduction to accomplish these goals?
 After 5 minutes, come together, and combine ideas as a large group.
-Compare your ideas with the list of topics below. 
+Compare your ideas with the list of topics below.
 Did you miss anything?
 Did you come up with something that's not listed below?
 
@@ -841,7 +841,7 @@ Picking up the Pieces (optional)
 In small groups or on your own, make a list of all the concepts you've encountered in this training. Your list can include everything from educational/teaching theories to specific in-classroom practices.
 
 
-Organize Your Knowledge 
+Organize Your Knowledge
 Let's put the pieces together by creating a visual organization of information.
 We suggest doing this in two ways:
 
