@@ -206,7 +206,7 @@ We are committed to offering a pleasant setup experience for our learners, Train
 If you find bugs in our instructions,
 or would like to suggest improvements,
 please [file an issue][issues]
-or [mail us][email].
+or [mail us][contact].
 
 [carpentry-site]: https://carpentries.org/
 [contact]: mailto:instructor.training@carpentries.org
