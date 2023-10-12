@@ -209,7 +209,7 @@ please [file an issue][issues]
 or [mail us][email].
 
 [carpentry-site]: https://carpentries.org/
-[contact]: mailto:checkout@carpentries.org
+[contact]: mailto:instructor.training@carpentries.org
 [customization]: https://github.com/carpentries/training-template#customizing-your-website
 [design]: https://carpentries.github.io/workshop-template/design/
 [faq]: https://carpentries.github.io/workshop-template/faq/
