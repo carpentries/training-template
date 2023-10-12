@@ -111,14 +111,20 @@ but modify the `index.md.cldt` file instead.)
     git push origin gh-pages
     ~~~
 
-7.  When you are done editing,
+7. (Collaborative Lesson Development Training events only)
+    Rename `index.md.cldt` to `index.md` (replacing the original `index.md`)
+    to use this file as the source of the training event page.
+    If you are working locally, this can be achieved with the command
+    `git mv index.md.cldt index.md`.
+
+8.  When you are done editing,
     go to the GitHub Pages URL for your workshop and preview your changes.
     In the example above, this is `https://gvwilson.github.io/2016-12-01-ttt-oomza`.
     The finished page should look [something like this](fig/completed-page.png?raw=true).
 
-8.  Optional: you can now change the `README.md` file in your website's repository, which contains these instructions, so that it contains a short description of your workshop and a link to the training website.
+9.  Optional: you can now change the `README.md` file in your website's repository, which contains these instructions, so that it contains a short description of your workshop and a link to the training website.
 
-9.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).
+10.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).
 
 **Note:**
 please do all of your work in your repository's `gh-pages` branch,
