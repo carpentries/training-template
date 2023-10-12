@@ -1,6 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
+root: .               # DON'T CHANGE THIS EITHER.
+curriculum: "Instructor Training" # DON'T CHANGE THIS EITHER. (THANK YOU.)
 venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
@@ -57,11 +58,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 
 <p>
-<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational 
-  coding and data science skills to researchers worldwide. This Instructor Training 
-  event is designed to prepare trainees to certify and participate as Carpentries 
-  Instructors. However, much of our curriculum focuses on educational principles that 
-  apply across a wide variety of contexts. We also welcome participants who do not plan 
+<a href="{{ site.carpentries_site }}">The Carpentries</a> is a community of practice centered around teaching foundational
+  coding and data science skills to researchers worldwide. This Instructor Training
+  event is designed to prepare trainees to certify and participate as Carpentries
+  Instructors. However, much of our curriculum focuses on educational principles that
+  apply across a wide variety of contexts. We also welcome participants who do not plan
   to certify but simply wish to become a better teacher.
 </p>
 
@@ -79,7 +80,7 @@ not be learning:</p>
 * How to program in R or Python, use Git or SQL, or any of the other topics taught in  <a href="{{ site.dc_site }}">Data Carpentry</a>,
   <a href="{{ site.lc_site }}">Library Carpentry</a>, or
   <a href="{{ site.swc_site }}">Software Carpentry</a> workshops.
-* How to create your own lessons from scratch (although you will have a good start on the principles behind that sort of work if you are inspired to learn more).
+* How to create your own lessons from scratch. However, this Instructor Training serves as a good precursor to [The Carpentries Lesson Developer Training]({{ site.lessondev_training_site }}).
 
 
 <p>
