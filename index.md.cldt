@@ -67,6 +67,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   The target audience is groups of collaborators with an idea for a new lesson they would like to create together, especially if that lesson is intended for short-format training (e.g. part or all of a two-day workshop).
 </p>
 
+<h3>What is taught in this training?</h3>
+
 <p>After attending Carpentries Lesson Developer Training, participants will be able to:</p>
 
 * collaboratively develop and publish lessons using The Carpentries lesson infrastructure (aka [The Carpentries Workbench](https://carpentries.github.io/workbench/))
@@ -80,6 +82,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 * update and improve lesson material guided by feedback and reflection from teaching.
 * review and provide constructive feedback on lessons.
 
+<h3>What is <em>not</em> taught in this training?</h3>
 
 <p> Because we have only limited time, some things are beyond the scope of this training. We will
 not be learning:</p>
@@ -89,13 +92,16 @@ not be learning:</p>
     * [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 * How to teach a lesson in a workshop. [The Carpentries Instructor Training]({{ site.training_site }}) teaches foundational skills for excellent teaching.
 
+
+<h3>What to expect in this part of the training</h3>
+
 <p> Lesson Developer Training events are hands-on throughout:
 short lessons are interspersed with frequent practical exercises, through which trainees construct the basic outline of their lesson and begin to fill in some of the detail.
 For more information, see <a href="{{ site.lessondev_training_site }}">the Lesson Developer Training Curriculum</a>.
 </p>
 
 <p>
-Lesson Developer Training takes place in two parts separated by an extended break.
+The training takes place in two parts separated by an extended break.
 </p>
 
 {% if page.part == "1" %}
