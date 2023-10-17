@@ -7,21 +7,27 @@ template for creating websites for Instructor Training workshops.
     Instead, please use [the instructions below](#creating-a-repository)
     to copy this `training-template` repository and customize it for your workshop.
 
-2.  Please *do your work in your repository's `gh-pages` branch*,
+2.  Customise the values in `_config.yml` and the header of `index.md`
+    (or `index.md.cldt` for Collaborative Lesson Development Training)
+    to configure the website for your training event.
+    Please *do your work in your repository's `gh-pages` branch*,
     since that is what is
     [automatically published as a website by GitHub][github-project-pages].
 
-3.  Once you are done,
-    please **send your repository's URL to [The Carpentries' administrator][contact]**.
-    We build the list of workshops on our websites from the data included in your `index.md` page.
-    We can only do that if you [customize][customization] that page correctly
-    *and* send us a link to your workshop website.
+3. (Collaborative Lesson Development Training events only)
+   Rename `index.md.cldt` to `index.md` (replacing the original `index.md`)
+   to use this file as the source of the training event page.
+
+4.  Once you are done,
+    please **send your repository's URL to The Carpentries contact]**.
+    For an Instructor Training event send the URL to <instructor.training@carpentries.org>.
+    For Collaborative Lesson Development Training, send to <curriculum@carpentries.org>.
 
 If you run into problems,
 or have ideas about how to make this process simpler,
 please [get in touch](#getting-and-giving-help).
 The section on [customizing your website][customization],
-and the [FAQ][faq] and [design notes][design] from the related template fore workshop websites
+and the [FAQ][faq] and [design notes][design] from the related template for workshop websites
 have more detail on what we do and why.
 
 ## Creating a Repository
@@ -39,10 +45,15 @@ have more detail on what we do and why.
     (This will probably be you, but may instead be an organization you belong to.)
 
 4.  Choose a name for your workshop website repository.
-    This name should have the form `YYYY-MM-DD-ttt-site`,
+    For **Instructor Training**, this name should have the form `YYYY-MM-DD-ttt-site`,
     e.g., `2016-12-01-ttt-oomza`,
-    where `YYYY-MM-DD` is the start date of the workshop.
-   For online workshops, choose `online` as `site`.
+    where `YYYY-MM-DD` is the start date of the training.
+    For **Collaborative Lesson Development Training**,
+    the name should have the form `YYYY-MM-DD-cldt-partN-site`,
+    where `YYYY-MM-DD` is the start date of the training
+    and `N` is a number indicating the part of the training (1 or 2)
+    that will be taught at this event.
+    For online workshops, choose `online` as `site`.
     In most cases, the Instructor Training Team will tell you
     the name of the repository you should use.
 
@@ -50,10 +61,14 @@ have more detail on what we do and why.
     repository from template". You will be redirected to your new copy of the workshop template
     respository.
 
-6. Your new website will be rendered at `https://your_username.github.io/YYYY-MM-DD-ttt-site`.
+6. With a repository called `YYYY-MM-DD-ttt-site`,
+   your new website will be rendered at `https://your_username.github.io/YYYY-MM-DD-ttt-site`.
 
 
 ## Customizing Your Website
+
+(For Collaborative Lesson Development Training, follow the steps described here
+but modify the `index.md.cldt` file instead.)
 
 1.  Go into your newly-created repository,
     which will be at `https://github.com/your_username/YYYY-MM-DD-ttt-site`.
@@ -83,7 +98,7 @@ have more detail on what we do and why.
     and push your changes back to the repository.
 
     ~~~
-    git clone -b gh-pages https://github.com/your_username/YYYY-MM-DD-ttt-site
+    git clone https://github.com/your_username/YYYY-MM-DD-ttt-site
     ~~~
 
     You should specify `-b gh-pages` to checkout the gh-pages branch because the imported
@@ -96,14 +111,20 @@ have more detail on what we do and why.
     git push origin gh-pages
     ~~~
 
-7.  When you are done editing,
+7. (Collaborative Lesson Development Training events only)
+    Rename `index.md.cldt` to `index.md` (replacing the original `index.md`)
+    to use this file as the source of the training event page.
+    If you are working locally, this can be achieved with the command
+    `git mv index.md.cldt index.md`.
+
+8.  When you are done editing,
     go to the GitHub Pages URL for your workshop and preview your changes.
     In the example above, this is `https://gvwilson.github.io/2016-12-01-ttt-oomza`.
     The finished page should look [something like this](fig/completed-page.png?raw=true).
 
-8.  Optional: you can now change the `README.md` file in your website's repository, which contains these instructions, so that it contains a short description of your workshop and a link to the training website.
+9.  Optional: you can now change the `README.md` file in your website's repository, which contains these instructions, so that it contains a short description of your workshop and a link to the training website.
 
-9.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).
+10.  Optional: Add a link to your workshop website on the repository main page in the description/website section (look for the `Edit` button on the right to add).
 
 **Note:**
 please do all of your work in your repository's `gh-pages` branch,

@@ -4,7 +4,7 @@
 <div class="jumbotron">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h2>Instructor Training</h2>
+      <h2>{{ page.curriculum }}</h2>
       <div class="row">
         <div class="col-md-6">
 	  <p>{% for loc in page.locations %}{{ loc.venue }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
