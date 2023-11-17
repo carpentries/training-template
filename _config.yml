@@ -6,7 +6,7 @@
 # swc: Software Carpentry
 # dc: Data Carpentry
 # lc: Library Carpentry
-# cp: Carpentries (to use for instructor traning or Collaborative Lesson Development Training for instance)
+# cp: Carpentries (to use for Instructor Training or Collaborative Lesson Development Training for instance)
 carpentry: "cp"
 
 # Overall title for pages.
