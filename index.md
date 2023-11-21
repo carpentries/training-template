@@ -147,21 +147,21 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 
 <h4 id="accessibility">Accessibility</h4>
 
-We are committed to making this workshop
+We are committed to making this training
 accessible to everybody.
-Workshop organisers have checked that:
+Organisers have checked that:
 
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 
-Materials will be provided in advance of the workshop.
+Materials will be provided in advance of the event.
 
 We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
 However, we do want to help create an inclusive, accessible experience for all participants.
 We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-To request an accommodation for this workshop, please fill out the
+To request an accommodation for this training, please fill out the
 <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
 If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 
@@ -233,7 +233,7 @@ for more information.
 <h2 id="preparation" name="preparation">Preparation</h2>
 
 <p>
-  Please read the following before the workshop begins:
+  Please read the following before the training begins:
 </p>
 <ol>
   <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
@@ -264,7 +264,7 @@ for more information.
 <hr/>
 
 <!--
-NOTE: This space can be customized to reflect the unique schedule of your workshop. If you would like it to display,
+NOTE: This space can be customized to reflect the unique schedule of your training. If you would like it to display,
 adjust the times and titles, then delete the characters above and below that serve to comment it out.
 -->
 
@@ -402,10 +402,10 @@ FOUR DAY SCHEDULE
 <h2 id="pre_workshop_survey">Surveys</h2>
 
 <p>
-  Before attending the workshop, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Before attending the training, please fill out <a href="{{ site.instructor_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
 </p>
 
 
 <p>
-  After the workshop, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  After the training, please fill out <a href="{{ site.instructor_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
 </p>
