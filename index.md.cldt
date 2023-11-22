@@ -187,23 +187,24 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 
 <h4 id="accessibility">Accessibility</h4>
 
-We are committed to making this workshop
+We are committed to making this training
 accessible to everybody.
-Workshop organisers have checked that:
+Organisers have checked that:
 
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 
-Materials will be provided in advance of the workshop.
+Materials will be provided in advance of the event.
 
-We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information.
+We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
 However, we do want to help create an inclusive, accessible experience for all participants.
 We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-To request an accommodation for this workshop, please fill out the
+To request an accommodation for this training, please fill out the
 <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
 If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
+
 {% endif %}
 
 <h3>How to Prepare for Lesson Developer Training</h3>
