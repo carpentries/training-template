@@ -183,18 +183,17 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 </p>
 {% endif %}
 
-{% if online == "false" %}
-
 <h4 id="accessibility">Accessibility</h4>
 
 We are committed to making this training
 accessible to everybody.
-Organisers have checked that:
+{% if online == "false" %}Organisers have checked that:
 
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
+{% endif %}
 
 Materials will be provided in advance of the event.
 
@@ -204,8 +203,6 @@ We encourage you to share any information that would be helpful to make your Car
 To request an accommodation for this training, please fill out the
 <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
 If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
-
-{% endif %}
 
 <h3>How to Prepare for Lesson Developer Training</h3>
 
