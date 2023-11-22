@@ -20,12 +20,12 @@ etherpad:             # optional: URL for the workshop CodiMD/Etherpad if there 
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
-<!-- See instructions in the comments below for how to edit specific sections of this workshop template. When you are done, rename the file to index.md (replacing the default version of that file, used for Instructor Trainig events)-->
+<!-- See instructions in the comments below for how to edit specific sections of this training event template. When you are done, rename the file to index.md (replacing the default version of that file, used for Instructor Trainig events)-->
 
 <!--
   HEADER
 
-  Edit the values in the block above to be appropriate for your workshop.
+  Edit the values in the block above to be appropriate for your event.
   If the value is not 'true', 'false', 'null', or a number, please use
   double quotation marks around the value, unless specified otherwise.
   And run 'tools/check' *before* committing to make sure that changes are good.
@@ -150,7 +150,7 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
   LOCATION
 
   This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
+  if the latitude and longitude of the event have been set.  You
   can use http://itouchmap.com/latlong.html to find the lat/long of an
   address.
   -->
@@ -308,10 +308,10 @@ for more information.
 <h2 id="pre_workshop_survey">Surveys</h2>
 
 <p>
-  Before attending the workshop, please fill out <a href="{{ site.lessondev_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Before attending the training, please fill out <a href="{{ site.lessondev_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
 </p>
 
 
 <p>
-  After the workshop, please fill out <a href="{{ site.lessondev_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  After the training, please fill out <a href="{{ site.lessondev_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
 </p>
