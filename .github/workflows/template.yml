@@ -57,7 +57,7 @@ jobs:
 
       - name: Install GitHub Pages, Bundler, and kramdown gems
         run: |
-          gem install github-pages bundler kramdown kramdown-parser-gfm
+          gem install github-pages bundler:2.4.22 kramdown kramdown-parser-gfm
 
       - name: Install Python modules
         run: |
