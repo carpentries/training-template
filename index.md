@@ -341,6 +341,8 @@ FOUR DAY SCHEDULE
       <tr> <td>16:50</td> <td>Finish day 2</td> </tr>
     </table>
   </div>
+</div>
+<div class="row">  
   <div class="col-md-6">
     <h3>Day 3</h3>
     <table class="table table-striped">
