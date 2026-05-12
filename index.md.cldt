@@ -2,7 +2,6 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.
 curriculum: "Collaborative Lesson Development Training" # DON'T CHANGE THIS EITHER. (THANK YOU.)
-part: "FIXME"         # The part of the lesson development training curriculum being taught at this event: "1" or "2"
 venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
@@ -101,35 +100,14 @@ For more information, see <a href="{{ site.lessondev_training_site }}">the Lesso
 </p>
 
 <p>
-The training takes place in two parts separated by an extended break.
-</p>
-
-{% if page.part == "1" %}
-<p>
-This first part focusses on backward lesson design and techniques for the development of effective exercises and accessible lesson content.
+The training focusses on backward lesson design, techniques for the development of effective exercises and accessible lesson content, and practices for better collaboration.
 Trainees will define the target audience and intended learning outcomes of their lesson,
 produce an outline of the lesson content and narrative,
 prepare exercises and examples for a chosen section,
 and start building this material into an open source lesson website.
+In a checkout process to complete their Lesson Developer certification, participants will reflect on the experience of teaching some their new lesson, and discuss how they will approach the remaining stages of lesson development.
 </p>
-<p>
-Trainees are required to trial part of their new lesson with a real audience during the break between this first part and the conclusion of the training.
-When they return for the second and final part of the training, participants will reflect on this experience and discuss how they will approach the remaining stages of lesson development.
-</p>
-{% elsif page.part == "2" %}
-<p>
-In this second and final part of the training, participants will reflect on the experience of trialling their new lesson content,
-the remaining stages of lesson development,
-and some techniques and tools they can use to collaborate more effectively on their open source lesson project.
-</p>
-{% else %}
-<div class="alert alert-warning">
-You have not specified which part of Lesson Developer Training will be taught at this event.
-The training part is configured in the <code>part</code> field of the YAML header for this page (<code>index.md</code>).
-Expected values for <code>part</code> are <code>"1"</code> and <code>"2"</code>.
-The current value is: <code>{{ page.part }}</code>.
-</div>
-{% endif %}
+
 
 <h3>Code of Conduct</h3>
 
@@ -232,9 +210,8 @@ visit our <a href="https://carpentries.github.io/lesson-development-training/mar
 
 <h3>Attendance and Cancellation</h3>
 Trainees who miss more than 1 hour of the training may be marked absent.
-Lesson Developer certification cannot be completed without full attendance at
-an Instructor Training event. If you unexpectedly need to miss more than
-1 hour of your event, please contact your Trainers (contact info below).
+Lesson Developer certification cannot be completed without full attendance at a Collaborative Lesson Development Training event. 
+If you unexpectedly need to miss more than 1 hour of your event, please contact your Trainers (contact info below).
 
 For events in which registration occurs through The Carpentries via Eventbrite,
 cancellation may be performed in Eventbrite up to the start of the event.
@@ -269,12 +246,7 @@ for more information.
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
 
 <p>
-  Please see <a href="{{ site.lessondev_training_site }}/instructor/index.html#schedule">the Lesson Developer Training Curriculum</a> for course material and sample schedule for a 6 half-day event.
-</p>
-<p>
-  The training is divided into two parts and includes an extended break between the two parts.
-  Part 1 ends with a wrap-up session after the section on <em>Preparing to Teach</em>.
-  Part 2 begins with a reflection on the lesson trial runs trainees completed during the break, then switches focus to discuss effective strategies and tools for collaboration.
+  Please see <a href="{{ site.lessondev_training_site }}/instructor/index.html#schedule">the Lesson Developer Training Curriculum</a> for course material and sample schedule for a 4 half-day event.
 </p>
 
 
@@ -305,10 +277,10 @@ for more information.
 <h2 id="pre_workshop_survey">Surveys</h2>
 
 <p>
-  Before attending the training, please fill out <a href="{{ site.lessondev_pre_survey }}{{ site.github.project_title }}">our pre-training survey</a>.
+  Before attending the training, please fill out <a href="{{ site.lessondev_pre_survey }}">our pre-training survey</a>.
 </p>
 
 
 <p>
-  After the training, please fill out <a href="{{ site.lessondev_post_survey }}{{ site.github.project_title }}">our post-training survey</a>.
+  After the training, please fill out <a href="{{ site.lessondev_post_survey }}">our post-training survey</a>.
 </p>
